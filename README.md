@@ -1,6 +1,6 @@
 # nuc4info
 
-## eclipse
+## eclipse   https://www.eclipse.org/downloads/eclipse-packages/
 
 		ashburndave@dphnuc4:~/Downloads$ ls -latr | grep jee
 		-rw-rw-r--  1 ashburndave ashburndave  316866453 Jul  6 05:23 eclipse-jee-neon-3-linux-gtk-x86_64.tar.gz
