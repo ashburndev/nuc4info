@@ -38,7 +38,7 @@
 		-rw-rw-r-- 1 ashburndave ashburndave 357776781 Jul  6 05:39 eclipse-jee-photon-R-linux-gtk-x86_64.tar.gz
 		drwxr-xr-x 3 ashburndave ashburndave     12288 Jul  7 08:43 ..
 		drwxr-xr-x 2 ashburndave ashburndave      4096 Jul  7 08:43 .
-		ashburndave@dphnuc4:~/Downloads/tmp$ mkdir ~/foo
+		ashburndave@dphnuc4:~/Downloads/tmp$
 		ashburndave@dphnuc4:~/Downloads/tmp$ tar xzf eclipse-jee-neon-3-linux-gtk-x86_64.tar.gz
 		ashburndave@dphnuc4:~/Downloads/tmp$ ls -latr
 		total 997004
