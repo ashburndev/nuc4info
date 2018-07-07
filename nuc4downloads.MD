@@ -1,120 +1,188 @@
-ashburndave@dphnuc4:~/Downloads$ date
-Tue Jun 19 08:08:34 EDT 2018
-ashburndave@dphnuc4:~/Downloads$ pwd
-/home/ashburndave/Downloads
-ashburndave@dphnuc4:~/Downloads$ du .
-13343576	.
-ashburndave@dphnuc4:~/Downloads$ ls -latr
-total 13343580
--rw-rw-r--  1 ashburndave ashburndave 174157387 Mar 17 12:52 jdk-8u161-linux-x64.rpm
--rw-rw-r--  1 ashburndave ashburndave 189756259 Mar 17 12:54 jdk-8u161-linux-x64.tar.gz
--rw-rw-r--  1 ashburndave ashburndave 174204631 Mar 17 12:55 jdk-8u162-linux-x64.rpm
--rw-rw-r--  1 ashburndave ashburndave 189815615 Mar 17 12:57 jdk-8u162-linux-x64.tar.gz
--rw-rw-r--  1 ashburndave ashburndave  55315940 Mar 17 12:58 jdk-8u161-linux-x64-demos.rpm
--rw-rw-r--  1 ashburndave ashburndave  55164811 Mar 17 12:59 jdk-8u161-linux-x64-demos.tar.gz
--rw-rw-r--  1 ashburndave ashburndave  55316205 Mar 17 13:00 jdk-8u162-linux-x64-demos.rpm
--rw-rw-r--  1 ashburndave ashburndave  55164558 Mar 17 13:01 jdk-8u162-linux-x64-demos.tar.gz
--rw-rw-r--  1 ashburndave ashburndave      7091 Mar 17 13:02 8u161checksum.html
--rw-rw-r--  1 ashburndave ashburndave      6555 Mar 17 13:03 8u162checksum.html
--rw-rw-r--  1 ashburndave ashburndave  63333908 Mar 17 13:04 jre-8u161-linux-x64.rpm
--rw-rw-r--  1 ashburndave ashburndave  80062269 Mar 17 13:05 jre-8u161-linux-x64.tar.gz
--rw-rw-r--  1 ashburndave ashburndave  63376660 Mar 17 13:06 jre-8u162-linux-x64.rpm
--rw-rw-r--  1 ashburndave ashburndave  80107578 Mar 17 13:07 jre-8u162-linux-x64.tar.gz
--rw-rw-r--  1 ashburndave ashburndave 319890464 Mar 17 13:10 jdk-9.0.4_linux-x64_bin.rpm
--rw-rw-r--  1 ashburndave ashburndave 354635831 Mar 17 13:13 jdk-9.0.4_linux-x64_bin.tar.gz
--rw-rw-r--  1 ashburndave ashburndave      3176 Mar 17 13:27 9-0-4checksum.html
--rw-rw-r--  1 ashburndave ashburndave  59918112 Mar 17 13:28 serverjre-9.0.4_linux-x64_bin.tar.gz
--rw-rw-r--  1 ashburndave ashburndave  62690648 Mar 17 13:29 jre-9.0.4_linux-x64_bin.rpm
--rw-rw-r--  1 ashburndave ashburndave  87045353 Mar 17 13:30 jre-9.0.4_linux-x64_bin.tar.gz
--rw-rw-r--  1 ashburndave ashburndave 223882240 Mar 17 13:32 netbeans-8.2-linux.sh
--rw-rw-r--  1 ashburndave ashburndave 354809195 Apr  5 07:31 jdk-10_linux-x64_bin.tar.gz
--rw-rw-r--  1 ashburndave ashburndave 320788696 Apr  5 07:37 jdk-10_linux-x64_bin.rpm
--rw-rw-r--  1 ashburndave ashburndave      3216 Apr  5 07:38 10checksum.html
--rw-rw-r--  1 ashburndave ashburndave  59939117 Apr  5 07:50 serverjre-10_linux-x64_bin.tar.gz
--rw-rw-r--  1 ashburndave ashburndave  87962382 Apr  5 07:51 jre-10_linux-x64_bin.tar.gz
--rw-rw-r--  1 ashburndave ashburndave  63280400 Apr  5 07:52 jre-10_linux-x64_bin.rpm
--rw-rw-r--  1 ashburndave ashburndave  99634776 Apr  5 07:53 grails-3.3.4.zip
--rw-rw-r--  1 ashburndave ashburndave   1184946 Apr  5 07:54 single.html
--rw-rw-r--  1 ashburndave ashburndave   9297508 Apr  5 07:54 grails-docs-3.3.4.zip
--rw-rw-r--  1 ashburndave ashburndave  99638426 Apr  5 07:55 grails-3.3.3.zip
--rw-rw-r--  1 ashburndave ashburndave  99643461 Apr  5 07:56 grails-3.3.2.zip
--rw-rw-r--  1 ashburndave ashburndave 110551285 Apr  5 07:56 grails-3.3.1.zip
--rw-rw-r--  1 ashburndave ashburndave  99878208 Apr  5 07:56 grails-3.3.0.zip
--rw-rw-r--  1 ashburndave ashburndave 138229006 Apr  5 07:56 grails-2.5.6.zip
--rw-rw-r--  1 ashburndave ashburndave 137608538 Apr  5 07:57 grails-2.5.5.zip
--rw-rw-r--  1 ashburndave ashburndave 137572132 Apr  5 07:57 grails-2.5.4.zip
--rw-rw-r--  1 ashburndave ashburndave 527614893 Apr  9 07:05 groovy-grails-tool-suite-3.6.4.RELEASE-e4.4.2-linux-gtk-x86_64.tar.gz
--rw-rw-r--  1 ashburndave ashburndave 137806221 Apr  9 07:25 grails-2.5.3.zip
--rw-rw-r--  1 ashburndave ashburndave 137785618 Apr  9 07:25 grails-2.5.2.zip
--rw-rw-r--  1 ashburndave ashburndave 143014107 Apr  9 07:26 grails-2.5.1.zip
--rw-rw-r--  1 ashburndave ashburndave 146858899 Apr  9 07:26 grails-2.5.0.zip
--rw-rw-r--  1 ashburndave ashburndave 146271722 Apr  9 07:27 grails-2.4.5.zip
--rw-rw-r--  1 ashburndave ashburndave 140045626 Apr  9 07:27 grails-2.4.4.zip
--rw-rw-r--  1 ashburndave ashburndave 132273364 Apr  9 07:28 grails-2.4.3.zip
--rw-rw-r--  1 ashburndave ashburndave 137639987 Apr  9 07:28 grails-2.4.2.zip
--rw-rw-r--  1 ashburndave ashburndave 132307629 Apr  9 07:28 grails-2.4.1.zip
--rw-rw-r--  1 ashburndave ashburndave 137537673 Apr  9 07:29 grails-2.4.0.zip
--rw-rw-r--  1 ashburndave ashburndave 138090286 Apr 10 07:50 jdk-7u80-linux-x64.rpm
--rw-rw-r--  1 ashburndave ashburndave 153530841 Apr 10 07:52 jdk-7u80-linux-x64.tar.gz
--rw-rw-r--  1 ashburndave ashburndave  33705855 Apr 10 07:53 jre-7u80-linux-x64.rpm
--rw-rw-r--  1 ashburndave ashburndave  47110223 Apr 10 07:54 jre-7u80-linux-x64.tar.gz
--rw-rw-r--  1 ashburndave ashburndave  95925782 Apr 10 07:56 server-jre-7u80-linux-x64.tar.gz
--rw-rw-r--  1 ashburndave ashburndave 138082565 Apr 10 07:58 jdk-7u79-linux-x64.rpm
--rw-rw-r--  1 ashburndave ashburndave 153512879 Apr 10 08:00 jdk-7u79-linux-x64.tar.gz
--rw-rw-r--  1 ashburndave ashburndave  33706160 Apr 10 08:01 jre-7u79-linux-x64.rpm
--rw-rw-r--  1 ashburndave ashburndave  47098831 Apr 10 08:02 jre-7u79-linux-x64.tar.gz
--rw-rw-r--  1 ashburndave ashburndave  95908992 Apr 10 08:03 server-jre-7u79-linux-x64.tar.gz
--rw-rw-r--  1 ashburndave ashburndave     47042 Apr 11 08:03 Screenshot from 2018-04-11 07-56-29.png
--rw-rw-r--  1 ashburndave ashburndave 667175317 Apr 12 06:51 ideaIU-2018.1.1.tar.gz
--rw-rw-r--  1 ashburndave ashburndave 593654001 Apr 12 06:53 ideaIU-2018.1.1-no-jdk.tar.gz
--rw-rw-r--  1 ashburndave ashburndave 541428785 Apr 12 06:54 ideaIC-2018.1.1.tar.gz
--rw-rw-r--  1 ashburndave ashburndave 467909824 Apr 12 06:56 ideaIC-2018.1.1-no-jdk.tar.gz
--rw-rw-r--  1 ashburndave ashburndave 245030008 Apr 12 06:57 WebStorm-2018.1.1.tar.gz
--rw-rw-r--  1 ashburndave ashburndave        89 Apr 12 06:58 ideaIU-2018.1.1.tar.gz.sha256
--rw-rw-r--  1 ashburndave ashburndave        96 Apr 12 06:59 ideaIU-2018.1.1-no-jdk.tar.gz.sha256
--rw-rw-r--  1 ashburndave ashburndave        89 Apr 12 06:59 ideaIC-2018.1.1.tar.gz.sha256
--rw-rw-r--  1 ashburndave ashburndave        96 Apr 12 06:59 ideaIC-2018.1.1-no-jdk.tar.gz.sha256
--rw-rw-r--  1 ashburndave ashburndave        91 Apr 12 07:00 WebStorm-2018.1.1.tar.gz.sha256
--rw-rw-r--  1 ashburndave ashburndave 343686899 Apr 12 07:02 pycharm-professional-2018.1.1.tar.gz
--rw-rw-r--  1 ashburndave ashburndave       103 Apr 12 07:02 pycharm-professional-2018.1.1.tar.gz.sha256
--rw-rw-r--  1 ashburndave ashburndave 264905980 Apr 12 07:03 pycharm-community-2018.1.1.tar.gz
--rw-rw-r--  1 ashburndave ashburndave       100 Apr 12 07:03 pycharm-community-2018.1.1.tar.gz.sha256
--rw-rw-r--  1 ashburndave ashburndave   9541892 Apr 12 07:43 apache-tomcat-8.5.30.tar.gz
--rw-rw-r--  1 ashburndave ashburndave       188 Apr 12 07:44 apache-tomcat-8.5.30.tar.gz.asc
--rw-rw-r--  1 ashburndave ashburndave        69 Apr 12 07:44 apache-tomcat-8.5.30.tar.gz.sha1
--rw-rw-r--  1 ashburndave ashburndave       157 Apr 12 07:44 apache-tomcat-8.5.30.tar.gz.sha512
--rw-rw-r--  1 ashburndave ashburndave  45462662 May 18 08:57 code_1.23.1-1525968403_amd64.deb
--rw-rw-r--  1 ashburndave ashburndave  69499838 May 18 08:58 code-1.23.1-1525968555.el7.x86_64.rpm
--rw-rw-r--  1 ashburndave ashburndave  68325851 May 18 08:58 code-stable-code_1.23.1-1525968403_amd64.tar.gz
--rw-rw-r--  1 ashburndave ashburndave 175262413 Jun  5 05:58 jdk-8u171-linux-x64.rpm
--rw-rw-r--  1 ashburndave ashburndave 190890122 Jun  5 05:59 jdk-8u171-linux-x64.tar.gz
--rw-rw-r--  1 ashburndave ashburndave 175274374 Jun  5 05:59 jdk-8u172-linux-x64.rpm
--rw-rw-r--  1 ashburndave ashburndave 190921804 Jun  5 06:00 jdk-8u172-linux-x64.tar.gz
--rw-rw-r--  1 ashburndave ashburndave  55320925 Jun  5 06:00 jdk-8u171-linux-x64-demos.rpm
--rw-rw-r--  1 ashburndave ashburndave  55164287 Jun  5 06:00 jdk-8u171-linux-x64-demos.tar.gz
--rw-rw-r--  1 ashburndave ashburndave  59384684 Jun  5 06:01 jdk-8u172-linux-x64-demos.rpm
--rw-rw-r--  1 ashburndave ashburndave  59218933 Jun  5 06:01 jdk-8u172-linux-x64-demos.tar.gz
--rw-rw-r--  1 ashburndave ashburndave      7057 Jun  5 06:01 8u171checksum.html
--rw-rw-r--  1 ashburndave ashburndave      7567 Jun  5 06:01 8u172checksum.html
--rw-rw-r--  1 ashburndave ashburndave 667751183 Jun  5 06:05 ideaIU-2018.1.4.tar.gz
--rw-rw-r--  1 ashburndave ashburndave        89 Jun  5 06:05 ideaIU-2018.1.4.tar.gz.sha256
--rw-rw-r--  1 ashburndave ashburndave 594207189 Jun  5 06:07 ideaIU-2018.1.4-no-jdk.tar.gz
--rw-rw-r--  1 ashburndave ashburndave        96 Jun  5 06:07 ideaIU-2018.1.4-no-jdk.tar.gz.sha256
--rw-rw-r--  1 ashburndave ashburndave 542877681 Jun  5 06:08 ideaIC-2018.1.4.tar.gz
--rw-rw-r--  1 ashburndave ashburndave        89 Jun  5 06:08 ideaIC-2018.1.4.tar.gz.sha256
--rw-rw-r--  1 ashburndave ashburndave 469330992 Jun  5 06:10 ideaIC-2018.1.4-no-jdk.tar.gz
--rw-rw-r--  1 ashburndave ashburndave        96 Jun  5 06:10 ideaIC-2018.1.4-no-jdk.tar.gz.sha256
--rw-rw-r--  1 ashburndave ashburndave       188 Jun  5 06:29 apache-tomcat-8.5.31.zip.asc
--rw-rw-r--  1 ashburndave ashburndave        66 Jun  5 06:29 apache-tomcat-8.5.31.zip.sha1
--rw-rw-r--  1 ashburndave ashburndave       154 Jun  5 06:29 apache-tomcat-8.5.31.zip.sha512
--rw-rw-r--  1 ashburndave ashburndave   9552281 Jun  5 06:29 apache-tomcat-8.5.31.tar.gz
--rw-rw-r--  1 ashburndave ashburndave       188 Jun  5 06:29 apache-tomcat-8.5.31.tar.gz.asc
--rw-rw-r--  1 ashburndave ashburndave        69 Jun  5 06:29 apache-tomcat-8.5.31.tar.gz.sha1
--rw-rw-r--  1 ashburndave ashburndave       157 Jun  5 06:29 apache-tomcat-8.5.31.tar.gz.sha512
--rw-rw-r--  1 ashburndave ashburndave  18913097 Jun  5 06:34 Angular_Development_with_Typescript_Sec_v6_MEAP.pdf
--rw-rw-r--  1 ashburndave ashburndave   7433441 Jun  5 06:35 Get_Programming_with_Node.js_v6_MEAP.pdf
--rw-rw-r--  1 ashburndave ashburndave  45462662 Jun  5 06:40 code_1.23.1-1525968403_amd64(1).deb
--rw-rw-r--  1 ashburndave ashburndave  10139054 Jun  5 07:15 apache-tomcat-8.5.31.zip
-drwxr-xr-x  2 ashburndave ashburndave      4096 Jun  5 07:16 .
-drwxr-xr-x 28 ashburndave ashburndave      4096 Jun  5 08:01 ..
-ashburndave@dphnuc4:~/Downloads$ 
+		ashburndave@dphnuc4:~/Downloads$ date
+		Sat Jul  7 08:29:44 EDT 2018
+		ashburndave@dphnuc4:~/Downloads$ pwd
+		/home/ashburndave/Downloads
+		ashburndave@dphnuc4:~/Downloads$ du
+		22797640	.
+		ashburndave@dphnuc4:~/Downloads$ ls -latr
+		total 22797644
+		-rw-rw-r--  1 ashburndave ashburndave  174157387 Mar 17 12:52 jdk-8u161-linux-x64.rpm
+		-rw-rw-r--  1 ashburndave ashburndave  189756259 Mar 17 12:54 jdk-8u161-linux-x64.tar.gz
+		-rw-rw-r--  1 ashburndave ashburndave  174204631 Mar 17 12:55 jdk-8u162-linux-x64.rpm
+		-rw-rw-r--  1 ashburndave ashburndave  189815615 Mar 17 12:57 jdk-8u162-linux-x64.tar.gz
+		-rw-rw-r--  1 ashburndave ashburndave   55315940 Mar 17 12:58 jdk-8u161-linux-x64-demos.rpm
+		-rw-rw-r--  1 ashburndave ashburndave   55164811 Mar 17 12:59 jdk-8u161-linux-x64-demos.tar.gz
+		-rw-rw-r--  1 ashburndave ashburndave   55316205 Mar 17 13:00 jdk-8u162-linux-x64-demos.rpm
+		-rw-rw-r--  1 ashburndave ashburndave   55164558 Mar 17 13:01 jdk-8u162-linux-x64-demos.tar.gz
+		-rw-rw-r--  1 ashburndave ashburndave       7091 Mar 17 13:02 8u161checksum.html
+		-rw-rw-r--  1 ashburndave ashburndave       6555 Mar 17 13:03 8u162checksum.html
+		-rw-rw-r--  1 ashburndave ashburndave   63333908 Mar 17 13:04 jre-8u161-linux-x64.rpm
+		-rw-rw-r--  1 ashburndave ashburndave   80062269 Mar 17 13:05 jre-8u161-linux-x64.tar.gz
+		-rw-rw-r--  1 ashburndave ashburndave   63376660 Mar 17 13:06 jre-8u162-linux-x64.rpm
+		-rw-rw-r--  1 ashburndave ashburndave   80107578 Mar 17 13:07 jre-8u162-linux-x64.tar.gz
+		-rw-rw-r--  1 ashburndave ashburndave  319890464 Mar 17 13:10 jdk-9.0.4_linux-x64_bin.rpm
+		-rw-rw-r--  1 ashburndave ashburndave  354635831 Mar 17 13:13 jdk-9.0.4_linux-x64_bin.tar.gz
+		-rw-rw-r--  1 ashburndave ashburndave       3176 Mar 17 13:27 9-0-4checksum.html
+		-rw-rw-r--  1 ashburndave ashburndave   59918112 Mar 17 13:28 serverjre-9.0.4_linux-x64_bin.tar.gz
+		-rw-rw-r--  1 ashburndave ashburndave   62690648 Mar 17 13:29 jre-9.0.4_linux-x64_bin.rpm
+		-rw-rw-r--  1 ashburndave ashburndave   87045353 Mar 17 13:30 jre-9.0.4_linux-x64_bin.tar.gz
+		-rw-rw-r--  1 ashburndave ashburndave  223882240 Mar 17 13:32 netbeans-8.2-linux.sh
+		-rw-rw-r--  1 ashburndave ashburndave  354809195 Apr  5 07:31 jdk-10_linux-x64_bin.tar.gz
+		-rw-rw-r--  1 ashburndave ashburndave  320788696 Apr  5 07:37 jdk-10_linux-x64_bin.rpm
+		-rw-rw-r--  1 ashburndave ashburndave       3216 Apr  5 07:38 10checksum.html
+		-rw-rw-r--  1 ashburndave ashburndave   59939117 Apr  5 07:50 serverjre-10_linux-x64_bin.tar.gz
+		-rw-rw-r--  1 ashburndave ashburndave   87962382 Apr  5 07:51 jre-10_linux-x64_bin.tar.gz
+		-rw-rw-r--  1 ashburndave ashburndave   63280400 Apr  5 07:52 jre-10_linux-x64_bin.rpm
+		-rw-rw-r--  1 ashburndave ashburndave   99634776 Apr  5 07:53 grails-3.3.4.zip
+		-rw-rw-r--  1 ashburndave ashburndave    1184946 Apr  5 07:54 single.html
+		-rw-rw-r--  1 ashburndave ashburndave    9297508 Apr  5 07:54 grails-docs-3.3.4.zip
+		-rw-rw-r--  1 ashburndave ashburndave   99638426 Apr  5 07:55 grails-3.3.3.zip
+		-rw-rw-r--  1 ashburndave ashburndave   99643461 Apr  5 07:56 grails-3.3.2.zip
+		-rw-rw-r--  1 ashburndave ashburndave  110551285 Apr  5 07:56 grails-3.3.1.zip
+		-rw-rw-r--  1 ashburndave ashburndave   99878208 Apr  5 07:56 grails-3.3.0.zip
+		-rw-rw-r--  1 ashburndave ashburndave  138229006 Apr  5 07:56 grails-2.5.6.zip
+		-rw-rw-r--  1 ashburndave ashburndave  137608538 Apr  5 07:57 grails-2.5.5.zip
+		-rw-rw-r--  1 ashburndave ashburndave  137572132 Apr  5 07:57 grails-2.5.4.zip
+		-rw-rw-r--  1 ashburndave ashburndave  527614893 Apr  9 07:05 groovy-grails-tool-suite-3.6.4.RELEASE-e4.4.2-linux-gtk-x86_64.tar.gz
+		-rw-rw-r--  1 ashburndave ashburndave  137806221 Apr  9 07:25 grails-2.5.3.zip
+		-rw-rw-r--  1 ashburndave ashburndave  137785618 Apr  9 07:25 grails-2.5.2.zip
+		-rw-rw-r--  1 ashburndave ashburndave  143014107 Apr  9 07:26 grails-2.5.1.zip
+		-rw-rw-r--  1 ashburndave ashburndave  146858899 Apr  9 07:26 grails-2.5.0.zip
+		-rw-rw-r--  1 ashburndave ashburndave  146271722 Apr  9 07:27 grails-2.4.5.zip
+		-rw-rw-r--  1 ashburndave ashburndave  140045626 Apr  9 07:27 grails-2.4.4.zip
+		-rw-rw-r--  1 ashburndave ashburndave  132273364 Apr  9 07:28 grails-2.4.3.zip
+		-rw-rw-r--  1 ashburndave ashburndave  137639987 Apr  9 07:28 grails-2.4.2.zip
+		-rw-rw-r--  1 ashburndave ashburndave  132307629 Apr  9 07:28 grails-2.4.1.zip
+		-rw-rw-r--  1 ashburndave ashburndave  137537673 Apr  9 07:29 grails-2.4.0.zip
+		-rw-rw-r--  1 ashburndave ashburndave  138090286 Apr 10 07:50 jdk-7u80-linux-x64.rpm
+		-rw-rw-r--  1 ashburndave ashburndave  153530841 Apr 10 07:52 jdk-7u80-linux-x64.tar.gz
+		-rw-rw-r--  1 ashburndave ashburndave   33705855 Apr 10 07:53 jre-7u80-linux-x64.rpm
+		-rw-rw-r--  1 ashburndave ashburndave   47110223 Apr 10 07:54 jre-7u80-linux-x64.tar.gz
+		-rw-rw-r--  1 ashburndave ashburndave   95925782 Apr 10 07:56 server-jre-7u80-linux-x64.tar.gz
+		-rw-rw-r--  1 ashburndave ashburndave  138082565 Apr 10 07:58 jdk-7u79-linux-x64.rpm
+		-rw-rw-r--  1 ashburndave ashburndave  153512879 Apr 10 08:00 jdk-7u79-linux-x64.tar.gz
+		-rw-rw-r--  1 ashburndave ashburndave   33706160 Apr 10 08:01 jre-7u79-linux-x64.rpm
+		-rw-rw-r--  1 ashburndave ashburndave   47098831 Apr 10 08:02 jre-7u79-linux-x64.tar.gz
+		-rw-rw-r--  1 ashburndave ashburndave   95908992 Apr 10 08:03 server-jre-7u79-linux-x64.tar.gz
+		-rw-rw-r--  1 ashburndave ashburndave      47042 Apr 11 08:03 Screenshot from 2018-04-11 07-56-29.png
+		-rw-rw-r--  1 ashburndave ashburndave  667175317 Apr 12 06:51 ideaIU-2018.1.1.tar.gz
+		-rw-rw-r--  1 ashburndave ashburndave  593654001 Apr 12 06:53 ideaIU-2018.1.1-no-jdk.tar.gz
+		-rw-rw-r--  1 ashburndave ashburndave  541428785 Apr 12 06:54 ideaIC-2018.1.1.tar.gz
+		-rw-rw-r--  1 ashburndave ashburndave  467909824 Apr 12 06:56 ideaIC-2018.1.1-no-jdk.tar.gz
+		-rw-rw-r--  1 ashburndave ashburndave  245030008 Apr 12 06:57 WebStorm-2018.1.1.tar.gz
+		-rw-rw-r--  1 ashburndave ashburndave         89 Apr 12 06:58 ideaIU-2018.1.1.tar.gz.sha256
+		-rw-rw-r--  1 ashburndave ashburndave         96 Apr 12 06:59 ideaIU-2018.1.1-no-jdk.tar.gz.sha256
+		-rw-rw-r--  1 ashburndave ashburndave         89 Apr 12 06:59 ideaIC-2018.1.1.tar.gz.sha256
+		-rw-rw-r--  1 ashburndave ashburndave         96 Apr 12 06:59 ideaIC-2018.1.1-no-jdk.tar.gz.sha256
+		-rw-rw-r--  1 ashburndave ashburndave         91 Apr 12 07:00 WebStorm-2018.1.1.tar.gz.sha256
+		-rw-rw-r--  1 ashburndave ashburndave  343686899 Apr 12 07:02 pycharm-professional-2018.1.1.tar.gz
+		-rw-rw-r--  1 ashburndave ashburndave        103 Apr 12 07:02 pycharm-professional-2018.1.1.tar.gz.sha256
+		-rw-rw-r--  1 ashburndave ashburndave  264905980 Apr 12 07:03 pycharm-community-2018.1.1.tar.gz
+		-rw-rw-r--  1 ashburndave ashburndave        100 Apr 12 07:03 pycharm-community-2018.1.1.tar.gz.sha256
+		-rw-rw-r--  1 ashburndave ashburndave    9541892 Apr 12 07:43 apache-tomcat-8.5.30.tar.gz
+		-rw-rw-r--  1 ashburndave ashburndave        188 Apr 12 07:44 apache-tomcat-8.5.30.tar.gz.asc
+		-rw-rw-r--  1 ashburndave ashburndave         69 Apr 12 07:44 apache-tomcat-8.5.30.tar.gz.sha1
+		-rw-rw-r--  1 ashburndave ashburndave        157 Apr 12 07:44 apache-tomcat-8.5.30.tar.gz.sha512
+		-rw-rw-r--  1 ashburndave ashburndave   45462662 May 18 08:57 code_1.23.1-1525968403_amd64.deb
+		-rw-rw-r--  1 ashburndave ashburndave   69499838 May 18 08:58 code-1.23.1-1525968555.el7.x86_64.rpm
+		-rw-rw-r--  1 ashburndave ashburndave   68325851 May 18 08:58 code-stable-code_1.23.1-1525968403_amd64.tar.gz
+		-rw-rw-r--  1 ashburndave ashburndave  175262413 Jun  5 05:58 jdk-8u171-linux-x64.rpm
+		-rw-rw-r--  1 ashburndave ashburndave  190890122 Jun  5 05:59 jdk-8u171-linux-x64.tar.gz
+		-rw-rw-r--  1 ashburndave ashburndave  175274374 Jun  5 05:59 jdk-8u172-linux-x64.rpm
+		-rw-rw-r--  1 ashburndave ashburndave  190921804 Jun  5 06:00 jdk-8u172-linux-x64.tar.gz
+		-rw-rw-r--  1 ashburndave ashburndave   55320925 Jun  5 06:00 jdk-8u171-linux-x64-demos.rpm
+		-rw-rw-r--  1 ashburndave ashburndave   55164287 Jun  5 06:00 jdk-8u171-linux-x64-demos.tar.gz
+		-rw-rw-r--  1 ashburndave ashburndave   59384684 Jun  5 06:01 jdk-8u172-linux-x64-demos.rpm
+		-rw-rw-r--  1 ashburndave ashburndave   59218933 Jun  5 06:01 jdk-8u172-linux-x64-demos.tar.gz
+		-rw-rw-r--  1 ashburndave ashburndave       7057 Jun  5 06:01 8u171checksum.html
+		-rw-rw-r--  1 ashburndave ashburndave       7567 Jun  5 06:01 8u172checksum.html
+		-rw-rw-r--  1 ashburndave ashburndave  667751183 Jun  5 06:05 ideaIU-2018.1.4.tar.gz
+		-rw-rw-r--  1 ashburndave ashburndave         89 Jun  5 06:05 ideaIU-2018.1.4.tar.gz.sha256
+		-rw-rw-r--  1 ashburndave ashburndave  594207189 Jun  5 06:07 ideaIU-2018.1.4-no-jdk.tar.gz
+		-rw-rw-r--  1 ashburndave ashburndave         96 Jun  5 06:07 ideaIU-2018.1.4-no-jdk.tar.gz.sha256
+		-rw-rw-r--  1 ashburndave ashburndave  542877681 Jun  5 06:08 ideaIC-2018.1.4.tar.gz
+		-rw-rw-r--  1 ashburndave ashburndave         89 Jun  5 06:08 ideaIC-2018.1.4.tar.gz.sha256
+		-rw-rw-r--  1 ashburndave ashburndave  469330992 Jun  5 06:10 ideaIC-2018.1.4-no-jdk.tar.gz
+		-rw-rw-r--  1 ashburndave ashburndave         96 Jun  5 06:10 ideaIC-2018.1.4-no-jdk.tar.gz.sha256
+		-rw-rw-r--  1 ashburndave ashburndave        188 Jun  5 06:29 apache-tomcat-8.5.31.zip.asc
+		-rw-rw-r--  1 ashburndave ashburndave         66 Jun  5 06:29 apache-tomcat-8.5.31.zip.sha1
+		-rw-rw-r--  1 ashburndave ashburndave        154 Jun  5 06:29 apache-tomcat-8.5.31.zip.sha512
+		-rw-rw-r--  1 ashburndave ashburndave    9552281 Jun  5 06:29 apache-tomcat-8.5.31.tar.gz
+		-rw-rw-r--  1 ashburndave ashburndave        188 Jun  5 06:29 apache-tomcat-8.5.31.tar.gz.asc
+		-rw-rw-r--  1 ashburndave ashburndave         69 Jun  5 06:29 apache-tomcat-8.5.31.tar.gz.sha1
+		-rw-rw-r--  1 ashburndave ashburndave        157 Jun  5 06:29 apache-tomcat-8.5.31.tar.gz.sha512
+		-rw-rw-r--  1 ashburndave ashburndave   10139054 Jun  5 07:15 apache-tomcat-8.5.31.zip
+		-rw-rw-r--  1 ashburndave ashburndave   10405183 Jun 19 08:16 apache-tomcat-9.0.8.zip
+		-rw-rw-r--  1 ashburndave ashburndave        188 Jun 19 08:16 apache-tomcat-9.0.8.zip.asc
+		-rw-rw-r--  1 ashburndave ashburndave         65 Jun 19 08:16 apache-tomcat-9.0.8.zip.sha1
+		-rw-rw-r--  1 ashburndave ashburndave        153 Jun 19 08:17 apache-tomcat-9.0.8.zip.sha512
+		-rw-rw-r--  1 ashburndave ashburndave    9818695 Jun 19 08:17 apache-tomcat-9.0.8.tar.gz
+		-rw-rw-r--  1 ashburndave ashburndave        188 Jun 19 08:17 apache-tomcat-9.0.8.tar.gz.asc
+		-rw-rw-r--  1 ashburndave ashburndave         68 Jun 19 08:17 apache-tomcat-9.0.8.tar.gz.sha1
+		-rw-rw-r--  1 ashburndave ashburndave        156 Jun 19 08:17 apache-tomcat-9.0.8.tar.gz.sha512
+		-rw-rw-r--  1 ashburndave ashburndave  320835872 Jun 19 08:22 jdk-10.0.1_linux-x64_bin.rpm
+		-rw-rw-r--  1 ashburndave ashburndave  354846158 Jun 19 08:23 jdk-10.0.1_linux-x64_bin.tar.gz
+		-rw-rw-r--  1 ashburndave ashburndave       3332 Jun 19 08:23 10-0-1checksum.html
+		-rw-rw-r--  1 ashburndave ashburndave     187320 Jul  2 06:52 2018-03-13-raspbian-stretch.info
+		-rw-rw-r--  1 ashburndave ashburndave 1776280071 Jul  2 06:58 2018-03-13-raspbian-stretch.zip
+		-rw-rw-r--  1 ashburndave ashburndave         74 Jul  2 06:59 2018-03-13-raspbian-stretch.zip.sha1
+		-rw-rw-r--  1 ashburndave ashburndave         98 Jul  2 06:59 2018-03-13-raspbian-stretch.zip.sha256
+		-rw-rw-r--  1 ashburndave ashburndave        473 Jul  2 06:59 2018-03-13-raspbian-stretch.zip.sig
+		-rw-rw-r--  1 ashburndave ashburndave      34143 Jul  2 06:59 2018-03-13-raspbian-stretch.zip.torrent
+		-rw-rw-r--  1 ashburndave ashburndave     187560 Jul  3 06:39 2018-04-18-raspbian-stretch.info
+		-rw-rw-r--  1 ashburndave ashburndave 1776761413 Jul  3 08:40 2018-04-18-raspbian-stretch.zip
+		-rw-rw-r--  1 ashburndave ashburndave         74 Jul  3 08:54 2018-04-18-raspbian-stretch.zip.sha1
+		-rw-rw-r--  1 ashburndave ashburndave         98 Jul  3 08:54 2018-04-18-raspbian-stretch.zip.sha256
+		-rw-rw-r--  1 ashburndave ashburndave        473 Jul  3 08:54 2018-04-18-raspbian-stretch.zip.sig
+		-rw-rw-r--  1 ashburndave ashburndave      34163 Jul  3 08:54 2018-04-18-raspbian-stretch.zip.torrent
+		-rw-rw-r--  1 ashburndave ashburndave     182197 Jul  5 06:54 2018-06-27-raspbian-stretch.info
+		-rw-rw-r--  1 ashburndave ashburndave 1747608337 Jul  5 06:59 2018-06-27-raspbian-stretch.zip
+		-rw-rw-r--  1 ashburndave ashburndave         74 Jul  5 06:59 2018-06-27-raspbian-stretch.zip.sha1
+		-rw-rw-r--  1 ashburndave ashburndave         98 Jul  5 06:59 2018-06-27-raspbian-stretch.zip.sha256
+		-rw-rw-r--  1 ashburndave ashburndave        473 Jul  5 06:59 2018-06-27-raspbian-stretch.zip.sig
+		-rw-rw-r--  1 ashburndave ashburndave      33603 Jul  5 06:59 2018-06-27-raspbian-stretch.zip.torrent
+		-rw-rw-r--  1 ashburndave ashburndave      54142 Jul  5 07:00 2018-06-27-raspbian-stretch-lite.info
+		-rw-rw-r--  1 ashburndave ashburndave  366980542 Jul  5 07:02 2018-06-27-raspbian-stretch-lite.zip
+		-rw-rw-r--  1 ashburndave ashburndave         79 Jul  5 07:02 2018-06-27-raspbian-stretch-lite.zip.sha1
+		-rw-rw-r--  1 ashburndave ashburndave        103 Jul  5 07:02 2018-06-27-raspbian-stretch-lite.zip.sha256
+		-rw-rw-r--  1 ashburndave ashburndave        473 Jul  5 07:02 2018-06-27-raspbian-stretch-lite.zip.sig
+		-rw-rw-r--  1 ashburndave ashburndave      56266 Jul  5 07:02 2018-06-27-raspbian-stretch-lite.zip.torrent
+		-rw-rw-r--  1 ashburndave ashburndave 1578581326 Jul  5 07:18 NOOBS_v2_8_2.zip
+		-rw-rw-r--  1 ashburndave ashburndave         59 Jul  5 07:18 NOOBS_v2_8_2.zip.sha1
+		-rw-rw-r--  1 ashburndave ashburndave         83 Jul  5 07:19 NOOBS_v2_8_2.zip.sha256
+		-rw-rw-r--  1 ashburndave ashburndave        473 Jul  5 07:19 NOOBS_v2_8_2.zip.sig
+		-rw-rw-r--  1 ashburndave ashburndave      30368 Jul  5 07:19 NOOBS_v2_8_2.zip.torrent
+		-rw-rw-r--  1 ashburndave ashburndave   34849252 Jul  5 07:30 NOOBS_lite_v2_8.zip
+		-rw-rw-r--  1 ashburndave ashburndave         62 Jul  5 07:30 NOOBS_lite_v2_8.zip.sha1
+		-rw-rw-r--  1 ashburndave ashburndave         86 Jul  5 07:30 NOOBS_lite_v2_8.zip.sha256
+		-rw-rw-r--  1 ashburndave ashburndave        473 Jul  5 07:30 NOOBS_lite_v2_8.zip.sig
+		-rw-rw-r--  1 ashburndave ashburndave      21527 Jul  5 07:31 NOOBS_lite_v2_8.zip.torrent
+		-rw-rw-r--  1 ashburndave ashburndave   86114514 Jul  5 07:34 grails-3.3.5.zip
+		-rw-rw-r--  1 ashburndave ashburndave   99720815 Jul  5 07:34 grails-3.3.6.zip
+		-rw-rw-r--  1 ashburndave ashburndave    9305080 Jul  5 07:34 grails-docs-3.3.6.zip
+		-rw-rw-r--  1 ashburndave ashburndave  316866453 Jul  6 05:23 eclipse-jee-neon-3-linux-gtk-x86_64.tar.gz
+		-rw-rw-r--  1 ashburndave ashburndave         77 Jul  6 05:23 eclipse-jee-neon-3-linux-gtk-x86_64.tar.gz.md5
+		-rw-rw-r--  1 ashburndave ashburndave         85 Jul  6 05:23 eclipse-jee-neon-3-linux-gtk-x86_64.tar.gz.sha1
+		-rw-rw-r--  1 ashburndave ashburndave        173 Jul  6 05:23 eclipse-jee-neon-3-linux-gtk-x86_64.tar.gz.sha512
+		-rw-rw-r--  1 ashburndave ashburndave  168093851 Jul  6 05:24 eclipse-java-neon-3-linux-gtk-x86_64.tar.gz
+		-rw-rw-r--  1 ashburndave ashburndave         78 Jul  6 05:24 eclipse-java-neon-3-linux-gtk-x86_64.tar.gz.md5
+		-rw-rw-r--  1 ashburndave ashburndave         86 Jul  6 05:25 eclipse-java-neon-3-linux-gtk-x86_64.tar.gz.sha1
+		-rw-rw-r--  1 ashburndave ashburndave        174 Jul  6 05:25 eclipse-java-neon-3-linux-gtk-x86_64.tar.gz.sha512
+		-rw-rw-r--  1 ashburndave ashburndave  346253117 Jul  6 05:28 eclipse-jee-oxygen-3a-linux-gtk-x86_64.tar.gz
+		-rw-rw-r--  1 ashburndave ashburndave         80 Jul  6 05:28 eclipse-jee-oxygen-3a-linux-gtk-x86_64.tar.gz.md5
+		-rw-rw-r--  1 ashburndave ashburndave         88 Jul  6 05:29 eclipse-jee-oxygen-3a-linux-gtk-x86_64.tar.gz.sha1
+		-rw-rw-r--  1 ashburndave ashburndave  189039090 Jul  6 05:30 eclipse-java-oxygen-3a-linux-gtk-x86_64.tar.gz
+		-rw-rw-r--  1 ashburndave ashburndave         81 Jul  6 05:30 eclipse-java-oxygen-3a-linux-gtk-x86_64.tar.gz.md5
+		-rw-rw-r--  1 ashburndave ashburndave         89 Jul  6 05:30 eclipse-java-oxygen-3a-linux-gtk-x86_64.tar.gz.sha1
+		-rw-r--r--  1 ashburndave ashburndave        176 Jul  6 05:33 eclipse-jee-oxygen-3a-linux-gtk-x86_64.tar.gz.sha512
+		-rw-r--r--  1 ashburndave ashburndave        177 Jul  6 05:37 eclipse-java-oxygen-3a-linux-gtk-x86_64.tar.gz.sha512
+		-rw-rw-r--  1 ashburndave ashburndave  357776781 Jul  6 05:39 eclipse-jee-photon-R-linux-gtk-x86_64.tar.gz
+		-rw-r--r--  1 ashburndave ashburndave        175 Jul  6 05:40 eclipse-jee-photon-R-linux-gtk-x86_64.tar.gz.sha512
+		-rw-rw-r--  1 ashburndave ashburndave         79 Jul  6 05:41 eclipse-jee-photon-R-linux-gtk-x86_64.tar.gz.md5
+		-rw-rw-r--  1 ashburndave ashburndave         87 Jul  6 05:41 eclipse-jee-photon-R-linux-gtk-x86_64.tar.gz.sha1
+		-rw-rw-r--  1 ashburndave ashburndave  201489834 Jul  6 05:42 eclipse-java-photon-R-linux-gtk-x86_64.tar.gz
+		-rw-r--r--  1 ashburndave ashburndave        176 Jul  6 05:42 eclipse-java-photon-R-linux-gtk-x86_64.tar.gz.sha512
+		-rw-rw-r--  1 ashburndave ashburndave      56392 Jul  6 07:47 demo.zip
+		drwxr-xr-x 42 ashburndave ashburndave       4096 Jul  7 08:29 ..
+		drwxr-xr-x  2 ashburndave ashburndave      12288 Jul  7 08:29 .
+		ashburndave@dphnuc4:~/Downloads$ 
