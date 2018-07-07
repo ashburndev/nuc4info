@@ -110,24 +110,23 @@
 
 ## netbeans 8.2
 
-    cd ~/Downloads
-    mkdir tmp
-    cp -p netbeans-8.2-linux.sh tmp
-    cd tmp
-    chmod +x netbeans-8.2-linux.sh 
-    ./netbeans-8.2-linux.sh 
-    # I added tomcat to the installation (turned off by default) ... I accepted installation into /home/ashburndave
-    drwxr-xr-x  2 ashburndave ashburndave  4096 Jul  6 07:20 Desktop
-    drwxr-xr-x 17 ashburndave ashburndave  4096 Jul  6 07:20 .config
-    drwxr-xr-x  8 ashburndave ashburndave  4096 Jul  6 07:21 glassfish-4.1.1
-    drwxr-xr-x  9 ashburndave ashburndave  4096 Jul  6 07:21 apache-tomcat-8.0.27
-    drwxr-xr-x  7 ashburndave ashburndave  4096 Jul  6 07:23 .nbi
-    drwx------ 17 ashburndave ashburndave  4096 Jul  6 07:24 .cache
-    drwxr-xr-x 23 ashburndave ashburndave  4096 Jul  6 07:24 netbeans-8.2
-    drwxr-xr-x  3 ashburndave ashburndave  4096 Jul  6 07:25 .netbeans
-    drwxr-xr-x  3 ashburndave ashburndave  4096 Jul  6 07:26 .netbeans-derby
-    drwxr-xr-x  3 ashburndave ashburndave  4096 Jul  6 07:27 NetBeansProjects
-    
+		cd ~/Downloads
+		mkdir tmp
+		cp -p netbeans-8.2-linux.sh tmp
+		cd tmp
+		chmod +x netbeans-8.2-linux.sh 
+		./netbeans-8.2-linux.sh 
+		# added tomcat installation (turned off by default) ... I accepted installation into /home/ashburndave
+		drwxr-xr-x  2 ashburndave ashburndave  4096 Jul  6 07:20 Desktop
+		drwxr-xr-x 17 ashburndave ashburndave  4096 Jul  6 07:20 .config
+		drwxr-xr-x  8 ashburndave ashburndave  4096 Jul  6 07:21 glassfish-4.1.1
+		drwxr-xr-x  9 ashburndave ashburndave  4096 Jul  6 07:21 apache-tomcat-8.0.27
+		drwxr-xr-x  7 ashburndave ashburndave  4096 Jul  6 07:23 .nbi
+		drwx------ 17 ashburndave ashburndave  4096 Jul  6 07:24 .cache
+		drwxr-xr-x 23 ashburndave ashburndave  4096 Jul  6 07:24 netbeans-8.2
+		drwxr-xr-x  3 ashburndave ashburndave  4096 Jul  6 07:25 .netbeans
+		drwxr-xr-x  3 ashburndave ashburndave  4096 Jul  6 07:26 .netbeans-derby
+		drwxr-xr-x  3 ashburndave ashburndave  4096 Jul  6 07:27 NetBeansProjects
 
 ## sublime
 
@@ -137,3 +136,32 @@
 
 ## sts
 
+## ubuntu 18.04 (bionic beaver)
+
+		ashburndave@dphnuc4:~/Downloads$ ls -latr | tail
+		-rw-rw-r--  1 ashburndave ashburndave  201489834 Jul  6 05:42 eclipse-java-photon-R-linux-gtk-x86_64.tar.gz
+		-rw-r--r--  1 ashburndave ashburndave        176 Jul  6 05:42 eclipse-java-photon-R-linux-gtk-x86_64.tar.gz.sha512
+		drwxr-xr-x 43 ashburndave ashburndave       4096 Jul  7 09:17 ..
+		-rw-rw-r--  1 ashburndave ashburndave 1921843200 Jul  7 16:07 ubuntu-18.04-desktop-amd64.iso
+		-rw-rw-r--  1 ashburndave ashburndave        198 Jul  7 16:08 SHA256SUMS
+		-rw-rw-r--  1 ashburndave ashburndave        916 Jul  7 16:08 SHA256SUMS.gpg
+		-rw-rw-r--  1 ashburndave ashburndave       8084 Jul  7 16:08 ubuntu-18.04-desktop-amd64.list
+		-rw-rw-r--  1 ashburndave ashburndave      54520 Jul  7 16:09 ubuntu-18.04-desktop-amd64.manifest
+		-rw-rw-r--  1 ashburndave ashburndave      46536 Jul  7 16:09 ubuntu-18.04-desktop-amd64.metalink
+		drwxr-xr-x  2 ashburndave ashburndave      12288 Jul  7 16:10 .
+		ashburndave@dphnuc4:~/Downloads$ 
+		ashburndave@dphnuc4:~/Downloads$ mv SHA256SUMS ubuntu-18.04-desktop-amd64.sha256
+		ashburndave@dphnuc4:~/Downloads$ mv SHA256SUMS.gpg ubuntu-18.04-desktop-amd64.sha256.gpg
+		ashburndave@dphnuc4:~/Downloads$ 
+		ashburndave@dphnuc4:~/Downloads$ ls -latr | tail
+		-rw-rw-r--  1 ashburndave ashburndave  201489834 Jul  6 05:42 eclipse-java-photon-R-linux-gtk-x86_64.tar.gz
+		-rw-r--r--  1 ashburndave ashburndave        176 Jul  6 05:42 eclipse-java-photon-R-linux-gtk-x86_64.tar.gz.sha512
+		drwxr-xr-x 43 ashburndave ashburndave       4096 Jul  7 09:17 ..
+		-rw-rw-r--  1 ashburndave ashburndave 1921843200 Jul  7 16:07 ubuntu-18.04-desktop-amd64.iso
+		-rw-rw-r--  1 ashburndave ashburndave        198 Jul  7 16:08 ubuntu-18.04-desktop-amd64.sha256
+		-rw-rw-r--  1 ashburndave ashburndave        916 Jul  7 16:08 ubuntu-18.04-desktop-amd64.sha256.gpg
+		-rw-rw-r--  1 ashburndave ashburndave       8084 Jul  7 16:08 ubuntu-18.04-desktop-amd64.list
+		-rw-rw-r--  1 ashburndave ashburndave      54520 Jul  7 16:09 ubuntu-18.04-desktop-amd64.manifest
+		-rw-rw-r--  1 ashburndave ashburndave      46536 Jul  7 16:09 ubuntu-18.04-desktop-amd64.metalink
+		drwxr-xr-x  2 ashburndave ashburndave      12288 Jul  7 16:12 .
+		ashburndave@dphnuc4:~/Downloads$ 
