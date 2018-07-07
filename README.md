@@ -108,6 +108,15 @@
 
 ## grails
 
+		mkdir tmp
+		cp -p grails-3.3.6.zip tmp
+		cd tmp
+		unzip grails-3.3.6.zip
+		sudo mv grails-3.3.6 /opt
+		cd /opt
+		sudo rm grails
+		sudo ln -s grails-3.3.6 grails
+
 ## netbeans 8.2
 
 		cd ~/Downloads
