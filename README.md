@@ -145,7 +145,7 @@
 
 ## sts
 
-## ubuntu 18.04 (bionic beaver)
+## ubuntu 18.04 (bionic beaver)  http://releases.ubuntu.com/bionic/
 
 		ashburndave@dphnuc4:~/Downloads$ ls -latr | tail
 		-rw-rw-r--  1 ashburndave ashburndave  201489834 Jul  6 05:42 eclipse-java-photon-R-linux-gtk-x86_64.tar.gz
