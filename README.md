@@ -110,6 +110,25 @@
 
 ## netbeans 8.2
 
+    cd ~/Downloads
+    mkdir tmp
+    cp -p netbeans-8.2-linux.sh tmp
+    cd tmp
+    chmod +x netbeans-8.2-linux.sh 
+    ./netbeans-8.2-linux.sh 
+    # I added tomcat to the installation (turned off by default) ... I accepted installation into /home/ashburndave
+    drwxr-xr-x  2 ashburndave ashburndave  4096 Jul  6 07:20 Desktop
+    drwxr-xr-x 17 ashburndave ashburndave  4096 Jul  6 07:20 .config
+    drwxr-xr-x  8 ashburndave ashburndave  4096 Jul  6 07:21 glassfish-4.1.1
+    drwxr-xr-x  9 ashburndave ashburndave  4096 Jul  6 07:21 apache-tomcat-8.0.27
+    drwxr-xr-x  7 ashburndave ashburndave  4096 Jul  6 07:23 .nbi
+    drwx------ 17 ashburndave ashburndave  4096 Jul  6 07:24 .cache
+    drwxr-xr-x 23 ashburndave ashburndave  4096 Jul  6 07:24 netbeans-8.2
+    drwxr-xr-x  3 ashburndave ashburndave  4096 Jul  6 07:25 .netbeans
+    drwxr-xr-x  3 ashburndave ashburndave  4096 Jul  6 07:26 .netbeans-derby
+    drwxr-xr-x  3 ashburndave ashburndave  4096 Jul  6 07:27 NetBeansProjects
+    
+
 ## sublime
 
 ## vs code
