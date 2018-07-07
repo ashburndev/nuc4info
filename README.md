@@ -79,7 +79,10 @@
 		ashburndave@dphnuc4:~/Downloads/tmp$ rm *.gz
 		ashburndave@dphnuc4:~/Downloads/tmp$ sudo mv * /opt
 		[sudo] password for ashburndave: 
-		ashburndave@dphnuc4:~/Downloads/tmp$ ls -latr /opt
+		ashburndave@dphnuc4:~/Downloads/tmp$ cd /opt
+		ashburndave@dphnuc4:/opt$ 
+		ashburndave@dphnuc4:/opt$ sudo ln -s eclipse-jee-photon-R-linux-gtk-x86_64 eclipse
+		ashburndave@dphnuc4:/opt$ ls -latr
 		total 52
 		drwxr-xr-x  8 uucp                143 4096 Apr 10  2015 jdk1.7.0_79
 		drwxr-xr-x 10 root        root        4096 Mar  3  2016 grails-2.5.4
@@ -95,6 +98,23 @@
 		drwxr-xr-x  8 ashburndave ashburndave 4096 Jun 20 08:12 eclipse-jee-photon-R-linux-gtk-x86_64
 		drwxr-xr-x 24 root        root        4096 Jul  2 06:40 ..
 		lrwxrwxrwx  1 root        root          12 Jul  5 07:43 grails -> grails-3.3.6
-		drwxr-xr-x 13 root        root        4096 Jul  7 09:00 .
-		ashburndave@dphnuc4:~/Downloads/tmp$ 
+		lrwxrwxrwx  1 root        root          37 Jul  7 09:06 eclipse -> eclipse-jee-photon-R-linux-gtk-x86_64
+		drwxr-xr-x 13 root        root        4096 Jul  7 09:06 .
+		ashburndave@dphnuc4:/opt$ 
+
+## groovy
+
+## gradle
+
+## grails
+
+## netbeans 8.2
+
+## sublime
+
+## vs code
+
+## ggts
+
+## sts
 
