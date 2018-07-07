@@ -106,7 +106,7 @@
 
 ## gradle
 
-## grails
+## grails   https://grails.org/download.html
 
 		mkdir tmp
 		cp -p grails-3.3.6.zip tmp
@@ -145,7 +145,7 @@
 
 ## sts
 
-## ubuntu 18.04 (bionic beaver)  http://releases.ubuntu.com/bionic/
+## ubuntu 18.04 (bionic beaver)   http://releases.ubuntu.com/bionic/
 
 		ashburndave@dphnuc4:~/Downloads$ ls -latr | tail
 		-rw-rw-r--  1 ashburndave ashburndave  201489834 Jul  6 05:42 eclipse-java-photon-R-linux-gtk-x86_64.tar.gz
