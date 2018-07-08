@@ -273,6 +273,32 @@
 
 ## sts   https://spring.io/tools/sts/all
 
+## ant   https://ant.apache.org/bindownload.cgi
+
+## maven   https://maven.apache.org/download.cgi
+
+ashburndave@dphnuc4:~/Downloads$ cat apache-maven-3.5.4-bin.tar.gz.sha1
+22cac91b3557586bb1eba326f2f7727543ff15e3ashburndave@dphnuc4:~/Downloads$ 
+ashburndave@dphnuc4:~/Downloads$ shasum -a 1 apache-maven-3.5.4-bin.tar.gz
+22cac91b3557586bb1eba326f2f7727543ff15e3  apache-maven-3.5.4-bin.tar.gz
+ashburndave@dphnuc4:~/Downloads$ 
+ashburndave@dphnuc4:~/Downloads$ mkdir tmp
+ashburndave@dphnuc4:~/Downloads$ cp -p apache-maven-3.5.4-bin.tar.gz tmp
+ashburndave@dphnuc4:~/Downloads$ cd tmp
+ashburndave@dphnuc4:~/Downloads/tmp$ tar xzf apache-maven-3.5.4-bin.tar.gz
+ashburndave@dphnuc4:~/Downloads/tmp$ ls -latr
+total 8664
+-rw-rw-r-- 1 ashburndave ashburndave 8842660 Jul  8 09:45 apache-maven-3.5.4-bin.tar.gz
+drwxr-xr-x 3 ashburndave ashburndave   20480 Jul  8 09:48 ..
+drwxr-xr-x 3 ashburndave ashburndave    4096 Jul  8 09:49 .
+drwxr-xr-x 6 ashburndave ashburndave    4096 Jul  8 09:49 apache-maven-3.5.4
+ashburndave@dphnuc4:~/Downloads/tmp$ 
+ashburndave@dphnuc4:~/Downloads/tmp$ sudo mv apache-maven-3.5.4 /opt
+[sudo] password for ashburndave: 
+ashburndave@dphnuc4:~/Downloads/tmp$ cd /opt
+ashburndave@dphnuc4:/opt$ sudo ln -s apache-maven-3.5.4 maven
+ashburndave@dphnuc4:/opt$ 
+
 ## ubuntu 18.04 (bionic beaver)   http://releases.ubuntu.com/bionic/
     http://releases.ubuntu.com/
     http://releases.ubuntu.com/artful/
