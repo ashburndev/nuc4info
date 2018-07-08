@@ -1,11 +1,11 @@
 		ashburndave@dphnuc4:~/Downloads$ date
-		Sat Jul  7 08:29:44 EDT 2018
+		Sun Jul  8 08:24:24 EDT 2018
 		ashburndave@dphnuc4:~/Downloads$ pwd
 		/home/ashburndave/Downloads
 		ashburndave@dphnuc4:~/Downloads$ du
-		22797640	.
+		25363448	.
 		ashburndave@dphnuc4:~/Downloads$ ls -latr
-		total 22797644
+		total 25363452
 		-rw-rw-r--  1 ashburndave ashburndave  174157387 Mar 17 12:52 jdk-8u161-linux-x64.rpm
 		-rw-rw-r--  1 ashburndave ashburndave  189756259 Mar 17 12:54 jdk-8u161-linux-x64.tar.gz
 		-rw-rw-r--  1 ashburndave ashburndave  174204631 Mar 17 12:55 jdk-8u162-linux-x64.rpm
@@ -182,7 +182,26 @@
 		-rw-rw-r--  1 ashburndave ashburndave         87 Jul  6 05:41 eclipse-jee-photon-R-linux-gtk-x86_64.tar.gz.sha1
 		-rw-rw-r--  1 ashburndave ashburndave  201489834 Jul  6 05:42 eclipse-java-photon-R-linux-gtk-x86_64.tar.gz
 		-rw-r--r--  1 ashburndave ashburndave        176 Jul  6 05:42 eclipse-java-photon-R-linux-gtk-x86_64.tar.gz.sha512
-		-rw-rw-r--  1 ashburndave ashburndave      56392 Jul  6 07:47 demo.zip
-		drwxr-xr-x 42 ashburndave ashburndave       4096 Jul  7 08:29 ..
-		drwxr-xr-x  2 ashburndave ashburndave      12288 Jul  7 08:29 .
+		-rw-rw-r--  1 ashburndave ashburndave 1921843200 Jul  7 16:07 ubuntu-18.04-desktop-amd64.iso
+		-rw-rw-r--  1 ashburndave ashburndave        198 Jul  7 16:08 ubuntu-18.04-desktop-amd64.sha256
+		-rw-rw-r--  1 ashburndave ashburndave        916 Jul  7 16:08 ubuntu-18.04-desktop-amd64.sha256.gpg
+		-rw-rw-r--  1 ashburndave ashburndave       8084 Jul  7 16:08 ubuntu-18.04-desktop-amd64.list
+		-rw-rw-r--  1 ashburndave ashburndave      54520 Jul  7 16:09 ubuntu-18.04-desktop-amd64.manifest
+		-rw-rw-r--  1 ashburndave ashburndave      46536 Jul  7 16:09 ubuntu-18.04-desktop-amd64.metalink
+		-rw-rw-r--  1 ashburndave ashburndave   28293248 Jul  8 07:03 apache-groovy-binary-2.5.0.zip
+		-rw-rw-r--  1 ashburndave ashburndave        838 Jul  8 07:04 apache-groovy-binary-2.5.0.zip.asc
+		-rw-rw-r--  1 ashburndave ashburndave         66 Jul  8 07:04 apache-groovy-binary-2.5.0.zip.sha256
+		-rw-rw-r--  1 ashburndave ashburndave   16252731 Jul  8 07:05 apache-groovy-docs-2.5.0.zip
+		-rw-rw-r--  1 ashburndave ashburndave        838 Jul  8 07:05 apache-groovy-docs-2.5.0.zip.asc
+		-rw-rw-r--  1 ashburndave ashburndave         66 Jul  8 07:05 apache-groovy-docs-2.5.0.zip.sha256
+		-rw-rw-r--  1 ashburndave ashburndave   52300089 Jul  8 07:07 apache-groovy-sdk-2.5.0.zip
+		-rw-rw-r--  1 ashburndave ashburndave        838 Jul  8 07:07 apache-groovy-sdk-2.5.0.zip.asc
+		-rw-rw-r--  1 ashburndave ashburndave         66 Jul  8 07:07 apache-groovy-sdk-2.5.0.zip.sha256
+		-rw-rw-r--  1 ashburndave ashburndave   75889282 Jul  8 07:35 gradle-4.8.1-bin.zip
+		-rw-rw-r--  1 ashburndave ashburndave         64 Jul  8 07:35 gradle-4.8.1-bin.zip.sha256
+		-rw-rw-r--  1 ashburndave ashburndave  110900951 Jul  8 07:35 gradle-4.8.1-all.zip
+		-rw-rw-r--  1 ashburndave ashburndave         64 Jul  8 07:35 gradle-4.8.1-all.zip.sha256
+		drwxr-xr-x 44 ashburndave ashburndave       4096 Jul  8 08:00 ..
+		-rw-rw-r--  1 ashburndave ashburndave  421787231 Jul  8 08:22 spring-tool-suite-3.9.5.RELEASE-e4.8.0-linux-gtk-x86_64.tar.gz
+		drwxr-xr-x  2 ashburndave ashburndave      16384 Jul  8 08:24 .
 		ashburndave@dphnuc4:~/Downloads$ 
