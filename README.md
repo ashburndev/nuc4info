@@ -269,11 +269,11 @@
 
 ## vs code
 
-## ggts
+## ggts   https://spring.io/tools/ggts/all
 
-## sts
+## sts   https://spring.io/tools/sts/all
 
-## ubuntu 18.04 (bionic beaver)
+## ubuntu 18.04 (bionic beaver)   http://releases.ubuntu.com/bionic/
     http://releases.ubuntu.com/
     http://releases.ubuntu.com/artful/
     http://releases.ubuntu.com/bionic/
