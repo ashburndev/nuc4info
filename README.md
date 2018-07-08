@@ -1,6 +1,5 @@
 # nuc4info
 
-		ashburndave@dphnuc4:~$ 
 		ashburndave@dphnuc4:~$ java -version
 		java version "1.8.0_162"
 		Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
@@ -13,6 +12,13 @@
 		| Grails Version: 3.3.6
 		| Groovy Version: 2.4.15
 		| JVM Version: 1.8.0_162
+		ashburndave@dphnuc4:~$ mvn --version
+		Apache Maven 3.5.4 (1edded0938998edf8bf061f1ceb3cfdeccf443fe; 2018-06-17T14:33:14-04:00)
+		Maven home: /opt/maven
+		Java version: 1.8.0_162, vendor: Oracle Corporation, runtime: /opt/jdk1.8.0_162/jre
+		Default locale: en_US, platform encoding: UTF-8
+		OS name: "linux", version: "4.13.0-45-generic", arch: "amd64", family: "unix"
+		ashburndave@dphnuc4:~$ 		
 		ashburndave@dphnuc4:~$ gradle --version
 		Welcome to Gradle 4.8.1!
 		Here are the highlights of this release:
@@ -39,6 +45,7 @@
 		GROOVY_HOME=/opt/groovy
 		HOME=/home/ashburndave
 		JAVA_HOME=/opt/jdk
+		MAVEN_HOME=/opt/maven
 		ashburndave@dphnuc4:~$ 
 
 		ashburndave@dphnuc4:/opt$ ls -la
@@ -277,27 +284,27 @@
 
 ## maven   https://maven.apache.org/download.cgi
 
-ashburndave@dphnuc4:~/Downloads$ cat apache-maven-3.5.4-bin.tar.gz.sha1
-22cac91b3557586bb1eba326f2f7727543ff15e3ashburndave@dphnuc4:~/Downloads$ 
-ashburndave@dphnuc4:~/Downloads$ shasum -a 1 apache-maven-3.5.4-bin.tar.gz
-22cac91b3557586bb1eba326f2f7727543ff15e3  apache-maven-3.5.4-bin.tar.gz
-ashburndave@dphnuc4:~/Downloads$ 
-ashburndave@dphnuc4:~/Downloads$ mkdir tmp
-ashburndave@dphnuc4:~/Downloads$ cp -p apache-maven-3.5.4-bin.tar.gz tmp
-ashburndave@dphnuc4:~/Downloads$ cd tmp
-ashburndave@dphnuc4:~/Downloads/tmp$ tar xzf apache-maven-3.5.4-bin.tar.gz
-ashburndave@dphnuc4:~/Downloads/tmp$ ls -latr
-total 8664
--rw-rw-r-- 1 ashburndave ashburndave 8842660 Jul  8 09:45 apache-maven-3.5.4-bin.tar.gz
-drwxr-xr-x 3 ashburndave ashburndave   20480 Jul  8 09:48 ..
-drwxr-xr-x 3 ashburndave ashburndave    4096 Jul  8 09:49 .
-drwxr-xr-x 6 ashburndave ashburndave    4096 Jul  8 09:49 apache-maven-3.5.4
-ashburndave@dphnuc4:~/Downloads/tmp$ 
-ashburndave@dphnuc4:~/Downloads/tmp$ sudo mv apache-maven-3.5.4 /opt
-[sudo] password for ashburndave: 
-ashburndave@dphnuc4:~/Downloads/tmp$ cd /opt
-ashburndave@dphnuc4:/opt$ sudo ln -s apache-maven-3.5.4 maven
-ashburndave@dphnuc4:/opt$ 
+		ashburndave@dphnuc4:~/Downloads$ cat apache-maven-3.5.4-bin.tar.gz.sha1
+		22cac91b3557586bb1eba326f2f7727543ff15e3ashburndave@dphnuc4:~/Downloads$ 
+		ashburndave@dphnuc4:~/Downloads$ shasum -a 1 apache-maven-3.5.4-bin.tar.gz
+		22cac91b3557586bb1eba326f2f7727543ff15e3  apache-maven-3.5.4-bin.tar.gz
+		ashburndave@dphnuc4:~/Downloads$ 
+		ashburndave@dphnuc4:~/Downloads$ mkdir tmp
+		ashburndave@dphnuc4:~/Downloads$ cp -p apache-maven-3.5.4-bin.tar.gz tmp
+		ashburndave@dphnuc4:~/Downloads$ cd tmp
+		ashburndave@dphnuc4:~/Downloads/tmp$ tar xzf apache-maven-3.5.4-bin.tar.gz
+		ashburndave@dphnuc4:~/Downloads/tmp$ ls -latr
+		total 8664
+		-rw-rw-r-- 1 ashburndave ashburndave 8842660 Jul  8 09:45 apache-maven-3.5.4-bin.tar.gz
+		drwxr-xr-x 3 ashburndave ashburndave   20480 Jul  8 09:48 ..
+		drwxr-xr-x 3 ashburndave ashburndave    4096 Jul  8 09:49 .
+		drwxr-xr-x 6 ashburndave ashburndave    4096 Jul  8 09:49 apache-maven-3.5.4
+		ashburndave@dphnuc4:~/Downloads/tmp$ 
+		ashburndave@dphnuc4:~/Downloads/tmp$ sudo mv apache-maven-3.5.4 /opt
+		[sudo] password for ashburndave: 
+		ashburndave@dphnuc4:~/Downloads/tmp$ cd /opt
+		ashburndave@dphnuc4:/opt$ sudo ln -s apache-maven-3.5.4 maven
+		ashburndave@dphnuc4:/opt$ 
 
 ## ubuntu 18.04 (bionic beaver)   http://releases.ubuntu.com/bionic/
     http://releases.ubuntu.com/

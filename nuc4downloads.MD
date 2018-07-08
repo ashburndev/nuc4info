@@ -1,11 +1,11 @@
 		ashburndave@dphnuc4:~/Downloads$ date
-		Sun Jul  8 08:24:24 EDT 2018
+		Sun Jul  8 09:54:37 EDT 2018
 		ashburndave@dphnuc4:~/Downloads$ pwd
 		/home/ashburndave/Downloads
 		ashburndave@dphnuc4:~/Downloads$ du
-		25363448	.
+		25409968	.
 		ashburndave@dphnuc4:~/Downloads$ ls -latr
-		total 25363452
+		total 25409972
 		-rw-rw-r--  1 ashburndave ashburndave  174157387 Mar 17 12:52 jdk-8u161-linux-x64.rpm
 		-rw-rw-r--  1 ashburndave ashburndave  189756259 Mar 17 12:54 jdk-8u161-linux-x64.tar.gz
 		-rw-rw-r--  1 ashburndave ashburndave  174204631 Mar 17 12:55 jdk-8u162-linux-x64.rpm
@@ -201,7 +201,29 @@
 		-rw-rw-r--  1 ashburndave ashburndave         64 Jul  8 07:35 gradle-4.8.1-bin.zip.sha256
 		-rw-rw-r--  1 ashburndave ashburndave  110900951 Jul  8 07:35 gradle-4.8.1-all.zip
 		-rw-rw-r--  1 ashburndave ashburndave         64 Jul  8 07:35 gradle-4.8.1-all.zip.sha256
-		drwxr-xr-x 44 ashburndave ashburndave       4096 Jul  8 08:00 ..
 		-rw-rw-r--  1 ashburndave ashburndave  421787231 Jul  8 08:22 spring-tool-suite-3.9.5.RELEASE-e4.8.0-linux-gtk-x86_64.tar.gz
-		drwxr-xr-x  2 ashburndave ashburndave      16384 Jul  8 08:24 .
+		drwxr-xr-x 41 ashburndave ashburndave       4096 Jul  8 08:35 ..
+		-rw-rw-r--  1 ashburndave ashburndave    8717690 Jul  8 09:39 apache-ant-1.9.12-bin.zip
+		-rw-rw-r--  1 ashburndave ashburndave        224 Jul  8 09:40 apache-ant-1.9.12-bin.zip.asc
+		-rw-rw-r--  1 ashburndave ashburndave         41 Jul  8 09:40 apache-ant-1.9.12-bin.zip.sha1
+		-rw-rw-r--  1 ashburndave ashburndave        129 Jul  8 09:40 apache-ant-1.9.12-bin.zip.sha512
+		-rw-rw-r--  1 ashburndave ashburndave    9058968 Jul  8 09:40 apache-ant-1.10.4-bin.zip
+		-rw-rw-r--  1 ashburndave ashburndave        224 Jul  8 09:40 apache-ant-1.10.4-bin.zip.asc
+		-rw-rw-r--  1 ashburndave ashburndave         41 Jul  8 09:40 apache-ant-1.10.4-bin.zip.sha1
+		-rw-rw-r--  1 ashburndave ashburndave        129 Jul  8 09:40 apache-ant-1.10.4-bin.zip.sha512
+		-rw-rw-r--  1 ashburndave ashburndave    5828801 Jul  8 09:41 apache-ant-1.9.12-bin.tar.gz
+		-rw-rw-r--  1 ashburndave ashburndave        224 Jul  8 09:41 apache-ant-1.9.12-bin.tar.gz.asc
+		-rw-rw-r--  1 ashburndave ashburndave         41 Jul  8 09:41 apache-ant-1.9.12-bin.tar.gz.sha1
+		-rw-rw-r--  1 ashburndave ashburndave        129 Jul  8 09:41 apache-ant-1.9.12-bin.tar.gz.sha512
+		-rw-rw-r--  1 ashburndave ashburndave    6106178 Jul  8 09:41 apache-ant-1.10.4-bin.tar.gz
+		-rw-rw-r--  1 ashburndave ashburndave        224 Jul  8 09:41 apache-ant-1.10.4-bin.tar.gz.asc
+		-rw-rw-r--  1 ashburndave ashburndave         41 Jul  8 09:41 apache-ant-1.10.4-bin.tar.gz.sha1
+		-rw-rw-r--  1 ashburndave ashburndave        129 Jul  8 09:41 apache-ant-1.10.4-bin.tar.gz.sha512
+		-rw-rw-r--  1 ashburndave ashburndave    8842660 Jul  8 09:45 apache-maven-3.5.4-bin.tar.gz
+		-rw-rw-r--  1 ashburndave ashburndave         40 Jul  8 09:45 apache-maven-3.5.4-bin.tar.gz.sha1
+		-rw-rw-r--  1 ashburndave ashburndave        236 Jul  8 09:46 apache-maven-3.5.4-bin.tar.gz.asc
+		-rw-rw-r--  1 ashburndave ashburndave    9001022 Jul  8 09:46 apache-maven-3.5.4-bin.zip
+		-rw-rw-r--  1 ashburndave ashburndave         40 Jul  8 09:46 apache-maven-3.5.4-bin.zip.sha1
+		-rw-rw-r--  1 ashburndave ashburndave        236 Jul  8 09:46 apache-maven-3.5.4-bin.zip.asc
+		drwxr-xr-x  2 ashburndave ashburndave      20480 Jul  8 09:53 .
 		ashburndave@dphnuc4:~/Downloads$ 
