@@ -102,7 +102,36 @@
 		drwxr-xr-x 13 root        root        4096 Jul  7 09:06 .
 		ashburndave@dphnuc4:/opt$ 
 
-## groovy
+## groovy   http://groovy-lang.org/download.html
+
+ashburndave@dphnuc4:~/Downloads$ ls -latr | tail
+-rw-rw-r--  1 ashburndave ashburndave   28293248 Jul  8 07:03 apache-groovy-binary-2.5.0.zip
+-rw-rw-r--  1 ashburndave ashburndave        838 Jul  8 07:04 apache-groovy-binary-2.5.0.zip.asc
+-rw-rw-r--  1 ashburndave ashburndave         66 Jul  8 07:04 apache-groovy-binary-2.5.0.zip.sha256
+-rw-rw-r--  1 ashburndave ashburndave   16252731 Jul  8 07:05 apache-groovy-docs-2.5.0.zip
+-rw-rw-r--  1 ashburndave ashburndave        838 Jul  8 07:05 apache-groovy-docs-2.5.0.zip.asc
+-rw-rw-r--  1 ashburndave ashburndave         66 Jul  8 07:05 apache-groovy-docs-2.5.0.zip.sha256
+-rw-rw-r--  1 ashburndave ashburndave   52300089 Jul  8 07:07 apache-groovy-sdk-2.5.0.zip
+-rw-rw-r--  1 ashburndave ashburndave        838 Jul  8 07:07 apache-groovy-sdk-2.5.0.zip.asc
+-rw-rw-r--  1 ashburndave ashburndave         66 Jul  8 07:07 apache-groovy-sdk-2.5.0.zip.sha256
+drwxr-xr-x  2 ashburndave ashburndave      12288 Jul  8 07:09 .
+ashburndave@dphnuc4:~/Downloads$ 
+ashburndave@dphnuc4:~/Downloads$ mkdir tmp
+ashburndave@dphnuc4:~/Downloads$ cp -p apache-groovy-binary-2.5.0.zip tmp
+ashburndave@dphnuc4:~/Downloads$ cd tmp
+ashburndave@dphnuc4:~/Downloads/tmp$ unzip apache-groovy-binary-2.5.0.zip 
+ashburndave@dphnuc4:~/Downloads/tmp$ 
+ashburndave@dphnuc4:~/Downloads/tmp$ ls -latr
+total 27652
+drwxr-xr-x 8 ashburndave ashburndave     4096 May 27 13:01 groovy-2.5.0
+-rw-rw-r-- 1 ashburndave ashburndave 28293248 Jul  8 07:03 apache-groovy-binary-2.5.0.zip
+drwxr-xr-x 3 ashburndave ashburndave    12288 Jul  8 07:10 ..
+drwxr-xr-x 3 ashburndave ashburndave     4096 Jul  8 07:12 .
+ashburndave@dphnuc4:~/Downloads/tmp$ sudo mv groovy-2.5.0 /opt
+[sudo] password for ashburndave: 
+ashburndave@dphnuc4:~/Downloads/tmp$ cd /opt
+ashburndave@dphnuc4:/opt$ sudo ln -s groovy-2.5.0 groovy
+ashburndave@dphnuc4:/opt$ 
 
 ## gradle
 
@@ -145,7 +174,7 @@
 
 ## sts
 
-## ubuntu 18.04 (bionic beaver)   http://releases.ubuntu.com/bionic/
+## ubuntu 18.04 (bionic beaver)   http://releases.ubuntu.com/   http://releases.ubuntu.com/bionic/
 
 		ashburndave@dphnuc4:~/Downloads$ ls -latr | tail
 		-rw-rw-r--  1 ashburndave ashburndave  201489834 Jul  6 05:42 eclipse-java-photon-R-linux-gtk-x86_64.tar.gz
