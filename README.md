@@ -1,54 +1,69 @@
 # nuc4info
 
-ashburndave@dphnuc4:~$ 
-ashburndave@dphnuc4:~$ java -version
-java version "1.8.0_162"
-Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
-Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
-ashburndave@dphnuc4:~$ javac -version
-javac 1.8.0_162
-ashburndave@dphnuc4:~$ groovy --version
-Groovy Version: 2.5.0 JVM: 1.8.0_162 Vendor: Oracle Corporation OS: Linux
-ashburndave@dphnuc4:~$ grails --version
-| Grails Version: 3.3.6
-| Groovy Version: 2.4.15
-| JVM Version: 1.8.0_162
-ashburndave@dphnuc4:~$ gradle --version
+		ashburndave@dphnuc4:~$ 
+		ashburndave@dphnuc4:~$ java -version
+		java version "1.8.0_162"
+		Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+		Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+		ashburndave@dphnuc4:~$ javac -version
+		javac 1.8.0_162
+		ashburndave@dphnuc4:~$ groovy --version
+		Groovy Version: 2.5.0 JVM: 1.8.0_162 Vendor: Oracle Corporation OS: Linux
+		ashburndave@dphnuc4:~$ grails --version
+		| Grails Version: 3.3.6
+		| Groovy Version: 2.4.15
+		| JVM Version: 1.8.0_162
+		ashburndave@dphnuc4:~$ gradle --version
+		Welcome to Gradle 4.8.1!
+		Here are the highlights of this release:
+		 - Dependency locking
+		 - Maven Publish and Ivy Publish plugins improved and marked stable
+		 - Incremental annotation processing enhancements
+		 - APIs to configure tasks at creation time
+		For more details see https://docs.gradle.org/4.8.1/release-notes.html
+		------------------------------------------------------------
+		Gradle 4.8.1
+		------------------------------------------------------------
+		Build time:   2018-06-21 07:53:06 UTC
+		Revision:     0abdea078047b12df42e7750ccba34d69b516a22
+		Groovy:       2.4.12
+		Ant:          Apache Ant(TM) version 1.9.11 compiled on March 23 2018
+		JVM:          1.8.0_162 (Oracle Corporation 25.162-b12)
+		OS:           Linux 4.13.0-45-generic amd64
+		ashburndave@dphnuc4:~$ 
+		ashburndave@dphnuc4:~$ printenv | sort | grep HOME
+		ECLIPSE_HOME=/opt/eclipse
+		GGTS_HOME=/opt/ggts-bundle/ggts-3.6.4.RELEASE
+		GRADLE_HOME=/opt/gradle
+		GRAILS_HOME=/opt/grails
+		GROOVY_HOME=/opt/groovy
+		HOME=/home/ashburndave
+		JAVA_HOME=/opt/jdk
+		ashburndave@dphnuc4:~$ 
 
-Welcome to Gradle 4.8.1!
-
-Here are the highlights of this release:
- - Dependency locking
- - Maven Publish and Ivy Publish plugins improved and marked stable
- - Incremental annotation processing enhancements
- - APIs to configure tasks at creation time
-
-For more details see https://docs.gradle.org/4.8.1/release-notes.html
-
-
-------------------------------------------------------------
-Gradle 4.8.1
-------------------------------------------------------------
-
-Build time:   2018-06-21 07:53:06 UTC
-Revision:     0abdea078047b12df42e7750ccba34d69b516a22
-
-Groovy:       2.4.12
-Ant:          Apache Ant(TM) version 1.9.11 compiled on March 23 2018
-JVM:          1.8.0_162 (Oracle Corporation 25.162-b12)
-OS:           Linux 4.13.0-45-generic amd64
-
-ashburndave@dphnuc4:~$ 
-ashburndave@dphnuc4:~$ printenv | sort | grep HOME
-ECLIPSE_HOME=/opt/eclipse
-GGTS_HOME=/opt/ggts-bundle/ggts-3.6.4.RELEASE
-GRADLE_HOME=/opt/gradle
-GRAILS_HOME=/opt/grails
-GROOVY_HOME=/opt/groovy
-HOME=/home/ashburndave
-JAVA_HOME=/opt/jdk
-ashburndave@dphnuc4:~$ 
-
+		ashburndave@dphnuc4:/opt$ ls -la
+		total 60
+		drwxr-xr-x 15 root        root        4096 Jul  8 07:44 .
+		drwxr-xr-x 24 root        root        4096 Jul  2 06:40 ..
+		lrwxrwxrwx  1 root        root          37 Jul  7 09:06 eclipse -> eclipse-jee-photon-R-linux-gtk-x86_64
+		drwxr-xr-x  8 ashburndave ashburndave 4096 Mar 14  2017 eclipse-jee-neon-3-linux-gtk-x86_64
+		drwxr-xr-x  8 ashburndave ashburndave 4096 Apr  5 11:13 eclipse-jee-oxygen-3a-linux-gtk-x86_64
+		drwxr-xr-x  8 ashburndave ashburndave 4096 Jul  7 09:18 eclipse-jee-photon-R-linux-gtk-x86_64
+		drwxr-xr-x  6 root        root        4096 Apr  9 07:08 ggts-bundle
+		lrwxrwxrwx  1 root        root          12 Jul  8 07:44 gradle -> gradle-4.8.1
+		drwxr-xr-x  6 ashburndave ashburndave 4096 Jun 21 07:56 gradle-4.8.1
+		lrwxrwxrwx  1 root        root          12 Jul  5 07:43 grails -> grails-3.3.6
+		drwxr-xr-x 11 root        root        4096 Apr  9 07:41 grails-2.4.4
+		drwxr-xr-x 10 root        root        4096 Mar  3  2016 grails-2.5.4
+		drwxr-xr-x  7 root        root        4096 Apr  4 16:52 grails-3.3.4
+		drwxr-xr-x  7 root        root        4096 Jun 15 18:19 grails-3.3.6
+		lrwxrwxrwx  1 root        root          12 Jul  8 07:15 groovy -> groovy-2.5.0
+		drwxr-xr-x  8 ashburndave ashburndave 4096 May 27 13:01 groovy-2.5.0
+		lrwxrwxrwx  1 root        root          12 Apr 10 19:28 jdk -> jdk1.8.0_162
+		drwxr-xr-x  8 uucp                143 4096 Apr 10  2015 jdk1.7.0_79
+		drwxr-xr-x  8 uucp                143 4096 Dec 20  2017 jdk1.8.0_162
+		drwxr-xr-x  4 root        root        4096 Jun 19 08:32 sublime_text
+		ashburndave@dphnuc4:/opt$ 
 
 ## eclipse   https://www.eclipse.org/downloads/eclipse-packages/
 
@@ -154,70 +169,70 @@ ashburndave@dphnuc4:~$
 
 ## groovy   http://groovy-lang.org/download.html
 
-ashburndave@dphnuc4:~/Downloads$ ls -latr | tail
--rw-rw-r--  1 ashburndave ashburndave   28293248 Jul  8 07:03 apache-groovy-binary-2.5.0.zip
--rw-rw-r--  1 ashburndave ashburndave        838 Jul  8 07:04 apache-groovy-binary-2.5.0.zip.asc
--rw-rw-r--  1 ashburndave ashburndave         66 Jul  8 07:04 apache-groovy-binary-2.5.0.zip.sha256
--rw-rw-r--  1 ashburndave ashburndave   16252731 Jul  8 07:05 apache-groovy-docs-2.5.0.zip
--rw-rw-r--  1 ashburndave ashburndave        838 Jul  8 07:05 apache-groovy-docs-2.5.0.zip.asc
--rw-rw-r--  1 ashburndave ashburndave         66 Jul  8 07:05 apache-groovy-docs-2.5.0.zip.sha256
--rw-rw-r--  1 ashburndave ashburndave   52300089 Jul  8 07:07 apache-groovy-sdk-2.5.0.zip
--rw-rw-r--  1 ashburndave ashburndave        838 Jul  8 07:07 apache-groovy-sdk-2.5.0.zip.asc
--rw-rw-r--  1 ashburndave ashburndave         66 Jul  8 07:07 apache-groovy-sdk-2.5.0.zip.sha256
-drwxr-xr-x  2 ashburndave ashburndave      12288 Jul  8 07:09 .
-ashburndave@dphnuc4:~/Downloads$ 
-ashburndave@dphnuc4:~/Downloads$ mkdir tmp
-ashburndave@dphnuc4:~/Downloads$ cp -p apache-groovy-binary-2.5.0.zip tmp
-ashburndave@dphnuc4:~/Downloads$ cd tmp
-ashburndave@dphnuc4:~/Downloads/tmp$ unzip apache-groovy-binary-2.5.0.zip 
-ashburndave@dphnuc4:~/Downloads/tmp$ 
-ashburndave@dphnuc4:~/Downloads/tmp$ ls -latr
-total 27652
-drwxr-xr-x 8 ashburndave ashburndave     4096 May 27 13:01 groovy-2.5.0
--rw-rw-r-- 1 ashburndave ashburndave 28293248 Jul  8 07:03 apache-groovy-binary-2.5.0.zip
-drwxr-xr-x 3 ashburndave ashburndave    12288 Jul  8 07:10 ..
-drwxr-xr-x 3 ashburndave ashburndave     4096 Jul  8 07:12 .
-ashburndave@dphnuc4:~/Downloads/tmp$ sudo mv groovy-2.5.0 /opt
-[sudo] password for ashburndave: 
-ashburndave@dphnuc4:~/Downloads/tmp$ cd /opt
-ashburndave@dphnuc4:/opt$ sudo ln -s groovy-2.5.0 groovy
-ashburndave@dphnuc4:/opt$ 
+		ashburndave@dphnuc4:~/Downloads$ ls -latr | tail
+		-rw-rw-r--  1 ashburndave ashburndave   28293248 Jul  8 07:03 apache-groovy-binary-2.5.0.zip
+		-rw-rw-r--  1 ashburndave ashburndave        838 Jul  8 07:04 apache-groovy-binary-2.5.0.zip.asc
+		-rw-rw-r--  1 ashburndave ashburndave         66 Jul  8 07:04 apache-groovy-binary-2.5.0.zip.sha256
+		-rw-rw-r--  1 ashburndave ashburndave   16252731 Jul  8 07:05 apache-groovy-docs-2.5.0.zip
+		-rw-rw-r--  1 ashburndave ashburndave        838 Jul  8 07:05 apache-groovy-docs-2.5.0.zip.asc
+		-rw-rw-r--  1 ashburndave ashburndave         66 Jul  8 07:05 apache-groovy-docs-2.5.0.zip.sha256
+		-rw-rw-r--  1 ashburndave ashburndave   52300089 Jul  8 07:07 apache-groovy-sdk-2.5.0.zip
+		-rw-rw-r--  1 ashburndave ashburndave        838 Jul  8 07:07 apache-groovy-sdk-2.5.0.zip.asc
+		-rw-rw-r--  1 ashburndave ashburndave         66 Jul  8 07:07 apache-groovy-sdk-2.5.0.zip.sha256
+		drwxr-xr-x  2 ashburndave ashburndave      12288 Jul  8 07:09 .
+		ashburndave@dphnuc4:~/Downloads$ 
+		ashburndave@dphnuc4:~/Downloads$ mkdir tmp
+		ashburndave@dphnuc4:~/Downloads$ cp -p apache-groovy-binary-2.5.0.zip tmp
+		ashburndave@dphnuc4:~/Downloads$ cd tmp
+		ashburndave@dphnuc4:~/Downloads/tmp$ unzip apache-groovy-binary-2.5.0.zip 
+		ashburndave@dphnuc4:~/Downloads/tmp$ 
+		ashburndave@dphnuc4:~/Downloads/tmp$ ls -latr
+		total 27652
+		drwxr-xr-x 8 ashburndave ashburndave     4096 May 27 13:01 groovy-2.5.0
+		-rw-rw-r-- 1 ashburndave ashburndave 28293248 Jul  8 07:03 apache-groovy-binary-2.5.0.zip
+		drwxr-xr-x 3 ashburndave ashburndave    12288 Jul  8 07:10 ..
+		drwxr-xr-x 3 ashburndave ashburndave     4096 Jul  8 07:12 .
+		ashburndave@dphnuc4:~/Downloads/tmp$ sudo mv groovy-2.5.0 /opt
+		[sudo] password for ashburndave: 
+		ashburndave@dphnuc4:~/Downloads/tmp$ cd /opt
+		ashburndave@dphnuc4:/opt$ sudo ln -s groovy-2.5.0 groovy
+		ashburndave@dphnuc4:/opt$ 
 
 ## gradle   https://gradle.org/releases/
 
-ashburndave@dphnuc4:~/Downloads$ ls -latr | tail
--rw-rw-r--  1 ashburndave ashburndave   52300089 Jul  8 07:07 apache-groovy-sdk-2.5.0.zip
--rw-rw-r--  1 ashburndave ashburndave        838 Jul  8 07:07 apache-groovy-sdk-2.5.0.zip.asc
--rw-rw-r--  1 ashburndave ashburndave         66 Jul  8 07:07 apache-groovy-sdk-2.5.0.zip.sha256
-drwxr-xr-x  2 ashburndave ashburndave       4096 Jul  8 07:13 tmp
-drwxr-xr-x 44 ashburndave ashburndave       4096 Jul  8 07:28 ..
--rw-rw-r--  1 ashburndave ashburndave   75889282 Jul  8 07:35 gradle-4.8.1-bin.zip
--rw-rw-r--  1 ashburndave ashburndave         64 Jul  8 07:35 gradle-4.8.1-bin.zip.sha256
--rw-rw-r--  1 ashburndave ashburndave  110900951 Jul  8 07:35 gradle-4.8.1-all.zip
--rw-rw-r--  1 ashburndave ashburndave         64 Jul  8 07:35 gradle-4.8.1-all.zip.sha256
-drwxr-xr-x  3 ashburndave ashburndave      12288 Jul  8 07:36 .
-ashburndave@dphnuc4:~/Downloads$ 
-ashburndave@dphnuc4:~/Downloads$ cat gradle-4.8.1-bin.zip.sha256
-af334d994b5e69e439ab55b5d2b7d086da5ea6763d78054f49f147b06370ed71ashburndave@dphnuc4:~/Downloads$ 
-ashburndave@dphnuc4:~/Downloads$ 
-ashburndave@dphnuc4:~/Downloads$ shasum -a 256 gradle-4.8.1-bin.zip
-af334d994b5e69e439ab55b5d2b7d086da5ea6763d78054f49f147b06370ed71  gradle-4.8.1-bin.zip
-ashburndave@dphnuc4:~/Downloads$ 
-ashburndave@dphnuc4:~/Downloads$ mkdir tmp
-ashburndave@dphnuc4:~/Downloads$ cp -p gradle-4.8.1-bin.zip tmp
-ashburndave@dphnuc4:~/Downloads$ cd tmp
-ashburndave@dphnuc4:~/Downloads/tmp$ unzip gradle-4.8.1-bin.zip 
-ashburndave@dphnuc4:~/Downloads/tmp$ ls -latr
-total 74132
-drwxr-xr-x 6 ashburndave ashburndave     4096 Jun 21 07:56 gradle-4.8.1
--rw-rw-r-- 1 ashburndave ashburndave 75889282 Jul  8 07:35 gradle-4.8.1-bin.zip
-drwxr-xr-x 3 ashburndave ashburndave    12288 Jul  8 07:41 ..
-drwxr-xr-x 3 ashburndave ashburndave     4096 Jul  8 07:42 .
-ashburndave@dphnuc4:~/Downloads/tmp$ 
-ashburndave@dphnuc4:~/Downloads/tmp$ sudo mv gradle-4.8.1 /opt
-ashburndave@dphnuc4:~/Downloads/tmp$ cd /opt
-ashburndave@dphnuc4:/opt$ sudo ln -s gradle-4.8.1 gradle
-ashburndave@dphnuc4:/opt$ 
+		ashburndave@dphnuc4:~/Downloads$ ls -latr | tail
+		-rw-rw-r--  1 ashburndave ashburndave   52300089 Jul  8 07:07 apache-groovy-sdk-2.5.0.zip
+		-rw-rw-r--  1 ashburndave ashburndave        838 Jul  8 07:07 apache-groovy-sdk-2.5.0.zip.asc
+		-rw-rw-r--  1 ashburndave ashburndave         66 Jul  8 07:07 apache-groovy-sdk-2.5.0.zip.sha256
+		drwxr-xr-x  2 ashburndave ashburndave       4096 Jul  8 07:13 tmp
+		drwxr-xr-x 44 ashburndave ashburndave       4096 Jul  8 07:28 ..
+		-rw-rw-r--  1 ashburndave ashburndave   75889282 Jul  8 07:35 gradle-4.8.1-bin.zip
+		-rw-rw-r--  1 ashburndave ashburndave         64 Jul  8 07:35 gradle-4.8.1-bin.zip.sha256
+		-rw-rw-r--  1 ashburndave ashburndave  110900951 Jul  8 07:35 gradle-4.8.1-all.zip
+		-rw-rw-r--  1 ashburndave ashburndave         64 Jul  8 07:35 gradle-4.8.1-all.zip.sha256
+		drwxr-xr-x  3 ashburndave ashburndave      12288 Jul  8 07:36 .
+		ashburndave@dphnuc4:~/Downloads$ 
+		ashburndave@dphnuc4:~/Downloads$ cat gradle-4.8.1-bin.zip.sha256
+		af334d994b5e69e439ab55b5d2b7d086da5ea6763d78054f49f147b06370ed71ashburndave@dphnuc4:~/Downloads$ 
+		ashburndave@dphnuc4:~/Downloads$ 
+		ashburndave@dphnuc4:~/Downloads$ shasum -a 256 gradle-4.8.1-bin.zip
+		af334d994b5e69e439ab55b5d2b7d086da5ea6763d78054f49f147b06370ed71  gradle-4.8.1-bin.zip
+		ashburndave@dphnuc4:~/Downloads$ 
+		ashburndave@dphnuc4:~/Downloads$ mkdir tmp
+		ashburndave@dphnuc4:~/Downloads$ cp -p gradle-4.8.1-bin.zip tmp
+		ashburndave@dphnuc4:~/Downloads$ cd tmp
+		ashburndave@dphnuc4:~/Downloads/tmp$ unzip gradle-4.8.1-bin.zip 
+		ashburndave@dphnuc4:~/Downloads/tmp$ ls -latr
+		total 74132
+		drwxr-xr-x 6 ashburndave ashburndave     4096 Jun 21 07:56 gradle-4.8.1
+		-rw-rw-r-- 1 ashburndave ashburndave 75889282 Jul  8 07:35 gradle-4.8.1-bin.zip
+		drwxr-xr-x 3 ashburndave ashburndave    12288 Jul  8 07:41 ..
+		drwxr-xr-x 3 ashburndave ashburndave     4096 Jul  8 07:42 .
+		ashburndave@dphnuc4:~/Downloads/tmp$ 
+		ashburndave@dphnuc4:~/Downloads/tmp$ sudo mv gradle-4.8.1 /opt
+		ashburndave@dphnuc4:~/Downloads/tmp$ cd /opt
+		ashburndave@dphnuc4:/opt$ sudo ln -s gradle-4.8.1 gradle
+		ashburndave@dphnuc4:/opt$ 
 
 ## grails   https://grails.org/download.html
 
