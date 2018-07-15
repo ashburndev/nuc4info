@@ -1,11 +1,11 @@
 		ashburndave@dphnuc4:~/Downloads$ date
-		Sun Jul  8 09:54:37 EDT 2018
+		Sun Jul 15 09:19:51 EDT 2018
 		ashburndave@dphnuc4:~/Downloads$ pwd
 		/home/ashburndave/Downloads
 		ashburndave@dphnuc4:~/Downloads$ du
-		25409968	.
+		25498020	.
 		ashburndave@dphnuc4:~/Downloads$ ls -latr
-		total 25409972
+		total 25498024
 		-rw-rw-r--  1 ashburndave ashburndave  174157387 Mar 17 12:52 jdk-8u161-linux-x64.rpm
 		-rw-rw-r--  1 ashburndave ashburndave  189756259 Mar 17 12:54 jdk-8u161-linux-x64.tar.gz
 		-rw-rw-r--  1 ashburndave ashburndave  174204631 Mar 17 12:55 jdk-8u162-linux-x64.rpm
@@ -202,7 +202,6 @@
 		-rw-rw-r--  1 ashburndave ashburndave  110900951 Jul  8 07:35 gradle-4.8.1-all.zip
 		-rw-rw-r--  1 ashburndave ashburndave         64 Jul  8 07:35 gradle-4.8.1-all.zip.sha256
 		-rw-rw-r--  1 ashburndave ashburndave  421787231 Jul  8 08:22 spring-tool-suite-3.9.5.RELEASE-e4.8.0-linux-gtk-x86_64.tar.gz
-		drwxr-xr-x 41 ashburndave ashburndave       4096 Jul  8 08:35 ..
 		-rw-rw-r--  1 ashburndave ashburndave    8717690 Jul  8 09:39 apache-ant-1.9.12-bin.zip
 		-rw-rw-r--  1 ashburndave ashburndave        224 Jul  8 09:40 apache-ant-1.9.12-bin.zip.asc
 		-rw-rw-r--  1 ashburndave ashburndave         41 Jul  8 09:40 apache-ant-1.9.12-bin.zip.sha1
@@ -225,5 +224,13 @@
 		-rw-rw-r--  1 ashburndave ashburndave    9001022 Jul  8 09:46 apache-maven-3.5.4-bin.zip
 		-rw-rw-r--  1 ashburndave ashburndave         40 Jul  8 09:46 apache-maven-3.5.4-bin.zip.sha1
 		-rw-rw-r--  1 ashburndave ashburndave        236 Jul  8 09:46 apache-maven-3.5.4-bin.zip.asc
-		drwxr-xr-x  2 ashburndave ashburndave      20480 Jul  8 09:53 .
+		-rw-rw-r--  1 ashburndave ashburndave   11351132 Jul 11 07:50 node-v8.11.3-linux-x64.tar.xz
+		-rw-rw-r--  1 ashburndave ashburndave   31115954 Jul 11 07:51 node-v8.11.3.tar.gz
+		-rw-rw-r--  1 ashburndave ashburndave       4585 Jul 11 07:51 node-v8.11.3.SHASUMS256.txt.asc
+		-rw-rw-r--  1 ashburndave ashburndave   12139756 Jul 11 08:04 node-v10.6.0-linux-x64.tar.xz
+		-rw-rw-r--  1 ashburndave ashburndave   35531041 Jul 11 08:05 node-v10.6.0.tar.gz
+		-rw-rw-r--  1 ashburndave ashburndave       4187 Jul 11 08:06 node-v10.6.0.SHASUMS256.txt.asc
+		drwxr-xr-x  2 ashburndave ashburndave      20480 Jul 11 08:08 .
+		drwxr-xr-x 47 ashburndave ashburndave       4096 Jul 15 09:02 ..
+		ashburndave@dphnuc4:~/Downloads$ 
 		ashburndave@dphnuc4:~/Downloads$ 
