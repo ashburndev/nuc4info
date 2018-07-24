@@ -1,11 +1,11 @@
 	ashburndave@dphnuc4:~/Downloads$ date
-	Mon Jul 23 06:40:33 EDT 2018
+	Tue Jul 24 12:07:34 EDT 2018
 	ashburndave@dphnuc4:~/Downloads$ pwd
 	/home/ashburndave/Downloads
 	ashburndave@dphnuc4:~/Downloads$ du
-	25959412	.
+	29042868	.
 	ashburndave@dphnuc4:~/Downloads$ ls -latr
-	total 25959416
+	total 29042872
 	-rw-rw-r--  1 ashburndave ashburndave  174157387 Mar 17 12:52 jdk-8u161-linux-x64.rpm
 	-rw-rw-r--  1 ashburndave ashburndave  189756259 Mar 17 12:54 jdk-8u161-linux-x64.tar.gz
 	-rw-rw-r--  1 ashburndave ashburndave  174204631 Mar 17 12:55 jdk-8u162-linux-x64.rpm
@@ -230,11 +230,34 @@
 	-rw-rw-r--  1 ashburndave ashburndave   12139756 Jul 11 08:04 node-v10.6.0-linux-x64.tar.xz
 	-rw-rw-r--  1 ashburndave ashburndave   35531041 Jul 11 08:05 node-v10.6.0.tar.gz
 	-rw-rw-r--  1 ashburndave ashburndave       4187 Jul 11 08:06 node-v10.6.0.SHASUMS256.txt.asc
-	drwxr-xr-x 47 ashburndave ashburndave       4096 Jul 15 09:02 ..
 	-rw-rw-r--  1 ashburndave ashburndave  170023183 Jul 23 06:35 jdk-8u181-linux-x64.rpm
 	-rw-rw-r--  1 ashburndave ashburndave  185646832 Jul 23 06:36 jdk-8u181-linux-x64.tar.gz
 	-rw-rw-r--  1 ashburndave ashburndave   58465621 Jul 23 06:36 jdk-8u181-linux-x64-demos.rpm
 	-rw-rw-r--  1 ashburndave ashburndave   58308123 Jul 23 06:37 jdk-8u181-linux-x64-demos.tar.gz
 	-rw-rw-r--  1 ashburndave ashburndave       7057 Jul 23 06:37 8u181checksum.html
-	drwxr-xr-x  2 ashburndave ashburndave      20480 Jul 23 06:40 .
+	drwxr-xr-x 47 ashburndave ashburndave       4096 Jul 23 07:03 ..
+	-rw-rw-r--  1 ashburndave ashburndave  320862420 Jul 23 08:07 jdk-10.0.2_linux-x64_bin.rpm
+	-rw-rw-r--  1 ashburndave ashburndave  354870097 Jul 23 08:08 jdk-10.0.2_linux-x64_bin.tar.gz
+	-rw-rw-r--  1 ashburndave ashburndave       3332 Jul 23 08:08 10-0-2checksum.html
+	-rw-rw-r--  1 ashburndave ashburndave   54826793 Jul 24 11:40 server-jre-8u181-linux-x64.tar.gz
+	-rw-rw-r--  1 ashburndave ashburndave   64432048 Jul 24 11:41 jre-8u181-linux-x64.rpm
+	-rw-rw-r--  1 ashburndave ashburndave   81191893 Jul 24 11:41 jre-8u181-linux-x64.tar.gz
+	-rw-rw-r--  1 ashburndave ashburndave   59948003 Jul 24 11:43 serverjre-10.0.2_linux-x64_bin.tar.gz
+	-rw-rw-r--  1 ashburndave ashburndave   63290084 Jul 24 11:43 jre-10.0.2_linux-x64_bin.rpm
+	-rw-rw-r--  1 ashburndave ashburndave   87982541 Jul 24 11:43 jre-10.0.2_linux-x64_bin.tar.gz
+	-rw-rw-r--  1 ashburndave ashburndave  603019898 Jul 24 11:46 mysql-8.0.11-linux-glibc2.12-x86_64.tar.gz
+	-rw-rw-r--  1 ashburndave ashburndave   51099557 Jul 24 11:47 mysql-test-8.0.11-linux-glibc2.12-x86_64.tar.gz
+	-rw-rw-r--  1 ashburndave ashburndave   22956180 Jul 24 11:48 mysql-shell-8.0.11-linux-glibc2.12-x86-64bit.tar.gz
+	-rw-rw-r--  1 ashburndave ashburndave   22451962 Jul 24 11:49 mysql-workbench-community-6.3.10-1ubuntu17.10-amd64.deb
+	-rw-rw-r--  1 ashburndave ashburndave    2011364 Jul 24 11:50 mysql-connector-java_8.0.11-1ubuntu17.10_all.deb
+	-rw-rw-r--  1 ashburndave ashburndave    2011516 Jul 24 11:50 mysql-connector-java_8.0.11-1ubuntu18.04_all.deb
+	-rw-rw-r--  1 ashburndave ashburndave  643790848 Jul 24 11:57 mysql-5.7.22-linux-glibc2.12-x86_64.tar.gz
+	-rw-rw-r--  1 ashburndave ashburndave   29419539 Jul 24 12:00 mysql-test-5.7.22-linux-glibc2.12-x86_64.tar.gz
+	-rw-rw-r--  1 ashburndave ashburndave  673218560 Jul 24 12:05 mysql-5.7.22-linux-glibc2.12-x86_64.tar
+	-rw-rw-r--  1 ashburndave ashburndave    4434926 Jul 24 12:05 mysql-connector-java-5.1.46.tar.gz
+	-rw-rw-r--  1 ashburndave ashburndave    4792694 Jul 24 12:05 mysql-connector-java-5.1.46.zip
+	-rw-rw-r--  1 ashburndave ashburndave    5034718 Jul 24 12:06 mysql-connector-java-8.0.11.tar.gz
+	-rw-rw-r--  1 ashburndave ashburndave    5740175 Jul 24 12:06 mysql-connector-java-8.0.11.zip
+	drwxr-xr-x  2 ashburndave ashburndave      20480 Jul 24 12:06 .
+	ashburndave@dphnuc4:~/Downloads$ 
 	ashburndave@dphnuc4:~/Downloads$ 
