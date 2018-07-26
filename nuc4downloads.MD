@@ -1,11 +1,11 @@
 	ashburndave@dphnuc4:~/Downloads$ date
-	Tue Jul 24 12:07:34 EDT 2018
+	Thu Jul 26 06:43:43 EDT 2018
 	ashburndave@dphnuc4:~/Downloads$ pwd
 	/home/ashburndave/Downloads
 	ashburndave@dphnuc4:~/Downloads$ du
-	29042868	.
+	31175064	.
 	ashburndave@dphnuc4:~/Downloads$ ls -latr
-	total 29042872
+	total 31175068
 	-rw-rw-r--  1 ashburndave ashburndave  174157387 Mar 17 12:52 jdk-8u161-linux-x64.rpm
 	-rw-rw-r--  1 ashburndave ashburndave  189756259 Mar 17 12:54 jdk-8u161-linux-x64.tar.gz
 	-rw-rw-r--  1 ashburndave ashburndave  174204631 Mar 17 12:55 jdk-8u162-linux-x64.rpm
@@ -235,7 +235,6 @@
 	-rw-rw-r--  1 ashburndave ashburndave   58465621 Jul 23 06:36 jdk-8u181-linux-x64-demos.rpm
 	-rw-rw-r--  1 ashburndave ashburndave   58308123 Jul 23 06:37 jdk-8u181-linux-x64-demos.tar.gz
 	-rw-rw-r--  1 ashburndave ashburndave       7057 Jul 23 06:37 8u181checksum.html
-	drwxr-xr-x 47 ashburndave ashburndave       4096 Jul 23 07:03 ..
 	-rw-rw-r--  1 ashburndave ashburndave  320862420 Jul 23 08:07 jdk-10.0.2_linux-x64_bin.rpm
 	-rw-rw-r--  1 ashburndave ashburndave  354870097 Jul 23 08:08 jdk-10.0.2_linux-x64_bin.tar.gz
 	-rw-rw-r--  1 ashburndave ashburndave       3332 Jul 23 08:08 10-0-2checksum.html
@@ -258,6 +257,15 @@
 	-rw-rw-r--  1 ashburndave ashburndave    4792694 Jul 24 12:05 mysql-connector-java-5.1.46.zip
 	-rw-rw-r--  1 ashburndave ashburndave    5034718 Jul 24 12:06 mysql-connector-java-8.0.11.tar.gz
 	-rw-rw-r--  1 ashburndave ashburndave    5740175 Jul 24 12:06 mysql-connector-java-8.0.11.zip
-	drwxr-xr-x  2 ashburndave ashburndave      20480 Jul 24 12:06 .
+	drwxr-xr-x 48 ashburndave ashburndave       4096 Jul 24 12:14 ..
+	-rw-rw-r--  1 ashburndave ashburndave  644700595 Jul 26 06:38 ideaIU-2018.2.tar.gz
+	-rw-rw-r--  1 ashburndave ashburndave         87 Jul 26 06:38 ideaIU-2018.2.tar.gz.sha256
+	-rw-rw-r--  1 ashburndave ashburndave  571076168 Jul 26 06:40 ideaIU-2018.2-no-jdk.tar.gz
+	-rw-rw-r--  1 ashburndave ashburndave         94 Jul 26 06:40 ideaIU-2018.2-no-jdk.tar.gz.sha256
+	-rw-rw-r--  1 ashburndave ashburndave  520591686 Jul 26 06:41 ideaIC-2018.2.tar.gz
+	-rw-rw-r--  1 ashburndave ashburndave         87 Jul 26 06:41 ideaIC-2018.2.tar.gz.sha256
+	-rw-rw-r--  1 ashburndave ashburndave  446966767 Jul 26 06:43 ideaIC-2018.2-no-jdk.tar.gz
+	-rw-rw-r--  1 ashburndave ashburndave         94 Jul 26 06:43 ideaIC-2018.2-no-jdk.tar.gz.sha256
+	drwxr-xr-x  2 ashburndave ashburndave      20480 Jul 26 06:43 .
 	ashburndave@dphnuc4:~/Downloads$ 
-	ashburndave@dphnuc4:~/Downloads$ 
+
