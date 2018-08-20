@@ -70,4 +70,44 @@ total 7548
 drwxr-xr-x 8 ashburndave ashburndave    4096 Aug 20 07:58 ..
 drwxr-xr-x 2 ashburndave ashburndave    4096 Aug 20 07:58 .
 ashburndave@dphnuc4:~/Downloads/tmp/idea-IU-182.3684.101/bin$ 
+ashburndave@dphnuc4:~/Downloads/tmp/idea-IU-182.3684.101/bin$ 
+ashburndave@dphnuc4:~/Downloads/tmp/idea-IU-182.3684.101/bin$ ./idea.sh
+Aug 20, 2018 8:02:14 AM java.util.prefs.FileSystemPreferences$6 run
+WARNING: Prefs file removed in background /home/ashburndave/.java/.userPrefs/prefs.xml
+WARN: NodeJS not loaded: since build 182.3911 > IU-182.3684.101
 ```
+
+```
+ashburndave@dphnuc4:/usr/local/bin$ 
+ashburndave@dphnuc4:/usr/local/bin$ pwd -P
+/usr/local/bin
+ashburndave@dphnuc4:/usr/local/bin$ ls -latr
+total 12
+drwxr-xr-x 10 root root 4096 Oct 18  2017 ..
+-rwxr-xr-x  1 root root 3225 Aug 20 08:05 idea
+drwxr-xr-x  2 root root 4096 Aug 20 08:05 .
+ashburndave@dphnuc4:/usr/local/bin$ 
+```
+
+```
+ashburndave@dphnuc4:~$ cd ~
+ashburndave@dphnuc4:~$ ls -latr | tail
+-rw-------  1 ashburndave ashburndave  5144 Aug 18 07:34 .ICEauthority
+drwxr-xr-x  9 ashburndave ashburndave  4096 Aug 18 08:06 g2projects
+-rw-r--r--  1 ashburndave ashburndave    13 Aug 18 08:12 .grails_history
+-rw-r--r--  1 ashburndave ashburndave 22247 Aug 18 09:37 stuff-20180818.txt
+drwxr-xr-x  3 ashburndave ashburndave 20480 Aug 20 07:57 Downloads
+drwxr-xr-x  4 ashburndave ashburndave  4096 Aug 20 08:02 .IntelliJIdea2018.2
+drwx------  3 ashburndave ashburndave  4096 Aug 20 08:05 .gnome
+drwxr-xr-x  2 ashburndave ashburndave  4096 Aug 20 08:06 .android
+drwxr-xr-x  3 ashburndave ashburndave  4096 Aug 20 08:12 IdeaProjects
+drwxr-xr-x 53 ashburndave ashburndave  4096 Aug 20 08:12 .
+ashburndave@dphnuc4:~$ 
+ashburndave@dphnuc4:~$ ls -latr IdeaProjects/
+total 12
+drwxr-xr-x 53 ashburndave ashburndave 4096 Aug 20 08:12 ..
+drwxr-xr-x  3 ashburndave ashburndave 4096 Aug 20 08:12 .
+drwxr-xr-x  5 ashburndave ashburndave 4096 Aug 20 08:13 myfirstideaprj
+ashburndave@dphnuc4:~$ 
+```
+
